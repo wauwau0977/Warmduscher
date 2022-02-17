@@ -1,0 +1,2650 @@
+{
+"crs": {
+"type":"name",
+"properties":{
+"name":"EPSG:2056"}
+},
+"license": "https://www.meteoschweiz.admin.ch/content/dam/meteoswiss/de/service-und-publikationen/produkt/doc/agbgrundangebot.pdf",
+"mapname": "ch.meteoschweiz.messwerte-wind-boeenspitze-kmh-10min",
+"map_long_name": "Messwerte Wind Böenspitze 1 s, 10 min Maxima",
+"map_short_name": "Windböe 1 s, Max. 10 min",
+"map_abstract": "Aktuelle Messwerte Windböe 1 s, Max. 10 min [km/h]. Daten werden alle 10 Minuten aktualisiert. Der Datensatz enthält alle Stationen des automatischen Bodenmessnetz SwissMetNet der MeteoSchweiz, welches 160 vollausgerüstete automatische Wetterstationen umfasst. Diese Messstationen liefern alle zehn Minuten eine Vielzahl an aktuellen Daten zu Wetter und Klima in der Schweiz.",
+"creation_time": "31.01.2022 08:25",
+"type":"FeatureCollection",
+"features":[
+{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2771036.80,1184825.90]},
+"id":"ARO",
+"properties":{
+"station_name":"Arosa",
+"station_symbol":1,
+"value":7.6,
+"wind_direction": 304,
+"wind_direction_radian":5.305801,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1888.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Arosa (ARO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>7.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>304 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1888.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ARO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2756910.52,1209350.65]},
+"id":"RAG",
+"properties":{
+"station_name":"Bad Ragaz",
+"station_symbol":1,
+"value":13.3,
+"wind_direction": 121,
+"wind_direction_radian":2.111848,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "506.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bad Ragaz (RAG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>13.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>121 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>506.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=RAG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2719100.41,1279046.07]},
+"id":"HAI",
+"properties":{
+"station_name":"Salen-Reutenen",
+"station_symbol":1,
+"value":64.4,
+"wind_direction": 238,
+"wind_direction_radian":4.153884,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "728.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Salen-Reutenen (HAI)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>64.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>238 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>728.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=HAI\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2677457.15,1283471.74]},
+"id":"HLL",
+"properties":{
+"station_name":"Hallau",
+"station_symbol":1,
+"value":54.7,
+"wind_direction": 237,
+"wind_direction_radian":4.13643,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "429.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Hallau (HLL)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>54.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>237 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>429.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=HLL\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2593269.41,1244543.47]},
+"id":"DEM",
+"properties":{
+"station_name":"Delémont",
+"station_symbol":1,
+"value":25.6,
+"wind_direction": 243,
+"wind_direction_radian":4.24115,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "449.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Delémont (DEM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>25.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>243 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>449.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=DEM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2726347.40,1237175.91]},
+"id":"EBK",
+"properties":{
+"station_name":"Ebnat-Kappel",
+"station_symbol":1,
+"value":16.9,
+"wind_direction": 351,
+"wind_direction_radian":6.126106,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "633.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Ebnat-Kappel (EBK)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>16.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>351 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>633.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=EBK\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2732265.69,1198424.71]},
+"id":"ELM",
+"properties":{
+"station_name":"Elm",
+"station_symbol":1,
+"value":8.3,
+"wind_direction": 174,
+"wind_direction_radian":3.036873,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "968.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Elm (ELM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>8.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>174 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>968.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ELM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2699984.27,1221068.38]},
+"id":"EIN",
+"properties":{
+"station_name":"Einsiedeln",
+"station_symbol":1,
+"value":57.2,
+"wind_direction": 242,
+"wind_direction_radian":4.223697,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "920.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Einsiedeln (EIN)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>57.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>242 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>920.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=EIN\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2687444.59,1165043.77]},
+"id":"ANT",
+"properties":{
+"station_name":"Andermatt",
+"station_symbol":1,
+"value":19.1,
+"wind_direction": 208,
+"wind_direction_radian":3.630285,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1444.52",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Andermatt (ANT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>19.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>208 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1444.52 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ANT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2655844.42,1175929.73]},
+"id":"MER",
+"properties":{
+"station_name":"Meiringen",
+"station_symbol":1,
+"value":7.2,
+"wind_direction": 198,
+"wind_direction_radian":3.455752,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "598.60",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Meiringen (MER)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>7.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>198 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>598.60 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MER\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2577039.56,1147654.83]},
+"id":"CHD",
+"properties":{
+"station_name":"Château-d'Oex",
+"station_symbol":1,
+"value":24.8,
+"wind_direction": 267,
+"wind_direction_radian":4.660029,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1039.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Château-d'Oex (CHD)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>24.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>267 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1039.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CHD\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2575181.80,1180076.10]},
+"id":"GRA",
+"properties":{
+"station_name":"Fribourg / Grangeneuve",
+"station_symbol":1,
+"value":42.8,
+"wind_direction": 219,
+"wind_direction_radian":3.822271,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "660.60",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Fribourg / Grangeneuve (GRA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>42.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>219 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>660.60 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GRA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2565062.25,1211016.92]},
+"id":"CHM",
+"properties":{
+"station_name":"Chaumont",
+"station_symbol":1,
+"value":46.8,
+"wind_direction": 240,
+"wind_direction_radian":4.18879,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1146.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Chaumont (CHM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>240 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1146.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CHM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2628005.36,1198791.98]},
+"id":"LAG",
+"properties":{
+"station_name":"Langnau i.E.",
+"station_symbol":1,
+"value":99999,
+"wind_direction": 99999,
+"wind_direction_radian":99999,
+"unit": "km/h",
+"reference_ts": "-",
+"altitude": "755.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Langnau i.E. (LAG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td class='text-nowrap'><strong>Böenspitze</strong></td><td>-</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>755.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=LAG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2612662.32,1218664.25]},
+"id":"KOP",
+"properties":{
+"station_name":"Koppigen",
+"station_symbol":1,
+"value":51.1,
+"wind_direction": 219,
+"wind_direction_radian":3.822271,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "494.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Koppigen (KOP)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>51.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>219 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>494.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=KOP\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2629563.85,1141078.96]},
+"id":"BLA",
+"properties":{
+"station_name":"Blatten, Lötschental",
+"station_symbol":1,
+"value":15.8,
+"wind_direction": 80,
+"wind_direction_radian":1.396263,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1548.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Blatten, Lötschental (BLA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>15.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>80 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1548.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BLA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2733017.56,1124089.40]},
+"id":"GRO",
+"properties":{
+"station_name":"Grono",
+"station_symbol":1,
+"value":4.7,
+"wind_direction": 342,
+"wind_direction_radian":5.969026,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "333.52",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Grono (GRO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>4.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>342 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>333.52 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GRO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2798423.28,1143019.76]},
+"id":"BEH",
+"properties":{
+"station_name":"Passo del Bernina",
+"station_symbol":1,
+"value":14.0,
+"wind_direction": 317,
+"wind_direction_radian":5.532694,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2280.50",
+"measurement_height": "20.50 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Passo del Bernina (BEH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>14.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>317 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2280.50 m (Höhe ü. Boden: 20.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BEH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2778546.06,1144895.60]},
+"id":"SIA",
+"properties":{
+"station_name":"Segl-Maria",
+"station_symbol":1,
+"value":10.4,
+"wind_direction": 93,
+"wind_direction_radian":1.623156,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1822.57",
+"measurement_height": "17.57 m (auf 7.57 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Segl-Maria (SIA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>10.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>93 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1822.57 m (Höhe ü. Boden: 17.57 m (auf 7.57 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SIA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2828861.77,1165579.69]},
+"id":"SMM",
+"properties":{
+"station_name":"Sta. Maria, Val Müstair",
+"station_symbol":1,
+"value":5.4,
+"wind_direction": 64,
+"wind_direction_radian":1.117011,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1396.20",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Sta. Maria, Val Müstair (SMM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>64 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1396.20 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SMM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2783811.66,1187582.50]},
+"id":"DAV",
+"properties":{
+"station_name":"Davos",
+"station_symbol":1,
+"value":36.0,
+"wind_direction": 13,
+"wind_direction_radian":0.226893,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1574.45",
+"measurement_height": "15.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Davos (DAV)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>36.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>13 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1574.45 m (Höhe ü. Boden: 15.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=DAV\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2759400.78,1193168.60]},
+"id":"CHU",
+"properties":{
+"station_name":"Chur",
+"station_symbol":1,
+"value":6.8,
+"wind_direction": 206,
+"wind_direction_radian":3.595378,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "572.48",
+"measurement_height": "18.30 m (auf 8.30 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Chur (CHU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>6.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>206 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>572.48 m (Höhe ü. Boden: 18.30 m (auf 8.30 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CHU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2801992.46,1136252.82]},
+"id":"ROB",
+"properties":{
+"station_name":"Poschiavo / Robbia",
+"station_symbol":1,
+"value":6.8,
+"wind_direction": 59,
+"wind_direction_radian":1.029744,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1088.04",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Poschiavo / Robbia (ROB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>6.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>59 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1088.04 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ROB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2787249.05,1155691.48]},
+"id":"SAM",
+"properties":{
+"station_name":"Samedan",
+"station_symbol":1,
+"value":16.2,
+"wind_direction": 210,
+"wind_direction_radian":3.665191,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1718.09",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Samedan (SAM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>16.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>210 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1718.09 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SAM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2817135.84,1186397.01]},
+"id":"SCU",
+"properties":{
+"station_name":"Scuol",
+"station_symbol":1,
+"value":3.6,
+"wind_direction": 222,
+"wind_direction_radian":3.874631,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1314.42",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Scuol (SCU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>3.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>222 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1314.42 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SCU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2497035.35,1142373.92]},
+"id":"DOL",
+"properties":{
+"station_name":"La Dôle",
+"station_symbol":1,
+"value":70.6,
+"wind_direction": 295,
+"wind_direction_radian":5.148721,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1683.28",
+"measurement_height": "10.50 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>La Dôle (DOL)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>70.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>295 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1683.28 m (Höhe ü. Boden: 10.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=DOL\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2562129.29,1184618.23]},
+"id":"PAY",
+"properties":{
+"station_name":"Payerne",
+"station_symbol":1,
+"value":36.7,
+"wind_direction": 209,
+"wind_direction_radian":3.647738,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "499.17",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Payerne (PAY)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>36.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>209 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>499.17 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PAY\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2641938.54,1155287.30]},
+"id":"JUN",
+"properties":{
+"station_name":"Jungfraujoch",
+"station_symbol":1,
+"value":74.2,
+"wind_direction": 320,
+"wind_direction_radian":5.585054,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "3581.33",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Jungfraujoch (JUN)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>74.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>320 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>3581.33 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=JUN\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2626403.51,1233855.86]},
+"id":"WYN",
+"properties":{
+"station_name":"Wynau",
+"station_symbol":1,
+"value":27.4,
+"wind_direction": 241,
+"wind_direction_radian":4.206243,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "432.27",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Wynau (WYN)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>27.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>241 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>432.27 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=WYN\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2744173.20,1234914.14]},
+"id":"SAE",
+"properties":{
+"station_name":"Säntis",
+"station_symbol":1,
+"value":61.2,
+"wind_direction": 260,
+"wind_direction_radian":4.537856,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2513.02",
+"measurement_height": "10.69 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Säntis (SAE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>61.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>260 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2513.02 m (Höhe ü. Boden: 10.69 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SAE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2757721.77,1221703.21]},
+"id":"VAD",
+"properties":{
+"station_name":"Vaduz",
+"station_symbol":1,
+"value":8.3,
+"wind_direction": 202,
+"wind_direction_radian":3.525565,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "467.08",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Vaduz (VAD)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>8.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>202 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>467.08 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VAD\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2560402.25,1130719.02]},
+"id":"AIG",
+"properties":{
+"station_name":"Aigle",
+"station_symbol":1,
+"value":4.3,
+"wind_direction": 261,
+"wind_direction_radian":4.555309,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "390.97",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Aigle (AIG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>4.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>261 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>390.97 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=AIG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2567744.10,1155214.40]},
+"id":"MLS",
+"properties":{
+"station_name":"Le Moléson",
+"station_symbol":1,
+"value":75.6,
+"wind_direction": 262,
+"wind_direction_radian":4.572763,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2000.31",
+"measurement_height": "23.31 m (auf 13.31 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Le Moléson (MLS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>75.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>262 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2000.31 m (Höhe ü. Boden: 23.31 m (auf 13.31 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MLS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2562463.44,1252682.51]},
+"id":"FAH",
+"properties":{
+"station_name":"Fahy",
+"station_symbol":1,
+"value":46.8,
+"wind_direction": 237,
+"wind_direction_radian":4.13643,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "606.47",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Fahy (FAH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>237 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>606.47 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=FAH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2601705.33,1127491.72]},
+"id":"MVE",
+"properties":{
+"station_name":"Montana",
+"station_symbol":1,
+"value":27.0,
+"wind_direction": 266,
+"wind_direction_radian":4.642576,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1432.82",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Montana (MVE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>27.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>266 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1432.82 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MVE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2624295.96,1097578.52]},
+"id":"ZER",
+"properties":{
+"station_name":"Zermatt",
+"station_symbol":1,
+"value":5.0,
+"wind_direction": 94,
+"wind_direction_radian":1.640609,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1647.84",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Zermatt (ZER)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>94 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1647.84 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ZER\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2570910.88,1220204.02]},
+"id":"CHA",
+"properties":{
+"station_name":"Chasseral",
+"station_symbol":1,
+"value":68.8,
+"wind_direction": 252,
+"wind_direction_radian":4.39823,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1613.41",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Chasseral (CHA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>68.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>252 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1613.41 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CHA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2662209.82,1203449.97]},
+"id":"PIL",
+"properties":{
+"station_name":"Pilatus",
+"station_symbol":1,
+"value":79.9,
+"wind_direction": 222,
+"wind_direction_radian":3.874631,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2126.29",
+"measurement_height": "7.57 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Pilatus (PIL)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>79.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>222 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2126.29 m (Höhe ü. Boden: 7.57 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PIL\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2690177.23,1193567.58]},
+"id":"ALT",
+"properties":{
+"station_name":"Altdorf",
+"station_symbol":1,
+"value":2.9,
+"wind_direction": 113,
+"wind_direction_radian":1.972222,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "448.02",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Altdorf (ALT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>2.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>113 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>448.02 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ALT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2666673.42,1150820.19]},
+"id":"ULR",
+"properties":{
+"station_name":"Ulrichen",
+"station_symbol":1,
+"value":5.8,
+"wind_direction": 202,
+"wind_direction_radian":3.525565,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1355.58",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Ulrichen (ULR)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>202 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1355.58 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ULR\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2695882.57,1152266.09]},
+"id":"PIO",
+"properties":{
+"station_name":"Piotta",
+"station_symbol":1,
+"value":7.9,
+"wind_direction": 286,
+"wind_direction_radian":4.991642,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "999.51",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Piotta (PIO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>7.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>286 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>999.51 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PIO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2717888.96,1095884.76]},
+"id":"LUG",
+"properties":{
+"station_name":"Lugano",
+"station_symbol":1,
+"value":3.6,
+"wind_direction": 56,
+"wind_direction_radian":0.977384,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "309.90",
+"measurement_height": "37.34 m (auf 27.34 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Lugano (LUG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>3.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>56 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>309.90 m (Höhe ü. Boden: 37.34 m (auf 27.34 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=LUG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2638129.72,1206083.17]},
+"id":"NAP",
+"properties":{
+"station_name":"Napf",
+"station_symbol":1,
+"value":82.4,
+"wind_direction": 232,
+"wind_direction_radian":4.049164,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1419.03",
+"measurement_height": "15.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Napf (NAP)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>82.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>232 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1419.03 m (Höhe ü. Boden: 15.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=NAP\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2591631.08,1118590.53]},
+"id":"SIO",
+"properties":{
+"station_name":"Sion",
+"station_symbol":1,
+"value":7.2,
+"wind_direction": 278,
+"wind_direction_radian":4.852015,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "491.46",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Sion (SIO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>7.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>278 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>491.46 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SIO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2715478.27,1113167.46]},
+"id":"MAG",
+"properties":{
+"station_name":"Magadino / Cadenazzo",
+"station_symbol":1,
+"value":2.9,
+"wind_direction": 143,
+"wind_direction_radian":2.495821,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "213.20",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Magadino / Cadenazzo (MAG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>2.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>143 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>213.20 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MAG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2563085.81,1205561.10]},
+"id":"NEU",
+"properties":{
+"station_name":"Neuchâtel",
+"station_symbol":1,
+"value":46.8,
+"wind_direction": 223,
+"wind_direction_radian":3.892084,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "505.33",
+"measurement_height": "21.64 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Neuchâtel (NEU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>223 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>505.33 m (Höhe ü. Boden: 21.64 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=NEU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2716066.49,1077968.85]},
+"id":"SBO",
+"properties":{
+"station_name":"Stabio",
+"station_symbol":1,
+"value":5.0,
+"wind_direction": 222,
+"wind_direction_radian":3.874631,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "361.30",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Stabio (SBO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>222 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>361.30 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Station aufgrund der Topographie und zusätzlichen Hindernissen in eher windgeschützte Lage.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SBO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2633021.62,1169094.97]},
+"id":"INT",
+"properties":{
+"station_name":"Interlaken",
+"station_symbol":1,
+"value":23.4,
+"wind_direction": 123,
+"wind_direction_radian":2.146755,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "587.35",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Interlaken (INT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>23.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>123 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>587.35 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=INT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2708186.89,1173795.51]},
+"id":"DIS",
+"properties":{
+"station_name":"Disentis",
+"station_symbol":1,
+"value":2.9,
+"wind_direction": 69,
+"wind_direction_radian":1.204277,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1208.03",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Disentis (DIS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>2.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>69 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1208.03 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=DIS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2747733.52,1254456.79]},
+"id":"STG",
+"properties":{
+"station_name":"St. Gallen",
+"station_symbol":1,
+"value":62.6,
+"wind_direction": 237,
+"wind_direction_radian":4.13643,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "802.10",
+"measurement_height": "16.31 m (auf 6.31 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>St. Gallen (STG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>62.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>237 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>802.10 m (Höhe ü. Boden: 16.31 m (auf 6.31 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=STG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2723755.23,1210573.72]},
+"id":"GLA",
+"properties":{
+"station_name":"Glarus",
+"station_symbol":1,
+"value":10.1,
+"wind_direction": 124,
+"wind_direction_radian":2.164208,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "527.17",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Glarus (GLA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>10.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>124 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>527.17 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GLA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2498473.50,1122752.37]},
+"id":"GVE",
+"properties":{
+"station_name":"Genève / Cointrin",
+"station_symbol":1,
+"value":19.4,
+"wind_direction": 207,
+"wind_direction_radian":3.612832,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "425.53",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Genève / Cointrin (GVE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>19.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>207 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>425.53 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GVE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2682251.48,1259225.73]},
+"id":"KLO",
+"properties":{
+"station_name":"Zürich / Kloten",
+"station_symbol":1,
+"value":34.2,
+"wind_direction": 235,
+"wind_direction_radian":4.101524,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "446.42",
+"measurement_height": "10.50 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Zürich / Kloten (KLO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>34.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>235 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>446.42 m (Höhe ü. Boden: 10.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=KLO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2690043.42,1167591.63]},
+"id":"GUE",
+"properties":{
+"station_name":"Gütsch, Andermatt",
+"station_symbol":1,
+"value":64.8,
+"wind_direction": 336,
+"wind_direction_radian":5.864306,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2341.50",
+"measurement_height": "13.50 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Gütsch, Andermatt (GUE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>64.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>336 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2341.50 m (Höhe ü. Boden: 13.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GUE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2540817.47,1151513.69]},
+"id":"PUY",
+"properties":{
+"station_name":"Pully",
+"station_symbol":1,
+"value":26.6,
+"wind_direction": 260,
+"wind_direction_radian":4.537856,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "465.75",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Pully (PUY)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>26.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>260 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>465.75 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Station aufgrund der Topographie und zusätzlichen Hindernissen in eher windgeschützte Lage.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PUY\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2579187.92,1079753.42]},
+"id":"GSB",
+"properties":{
+"station_name":"Col du Grand St-Bernard",
+"station_symbol":1,
+"value":20.5,
+"wind_direction": 60,
+"wind_direction_radian":1.047198,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2495.86",
+"measurement_height": "25.22 m (auf 19.07 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Col du Grand St-Bernard (GSB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>20.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>60 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2495.86 m (Höhe ü. Boden: 25.22 m (auf 19.07 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GSB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2609354.84,1148994.52]},
+"id":"ABO",
+"properties":{
+"station_name":"Adelboden",
+"station_symbol":1,
+"value":46.4,
+"wind_direction": 206,
+"wind_direction_radian":3.595378,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1356.60",
+"measurement_height": "31.00 m (auf 21.00 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Adelboden (ABO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>206 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1356.60 m (Höhe ü. Boden: 31.00 m (auf 21.00 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ABO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2631149.14,1128027.34]},
+"id":"VIS",
+"properties":{
+"station_name":"Visp",
+"station_symbol":1,
+"value":10.8,
+"wind_direction": 51,
+"wind_direction_radian":0.890118,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "649.39",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Visp (VIS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>10.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>51 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>649.39 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VIS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2550920.32,1214869.51]},
+"id":"CDF",
+"properties":{
+"station_name":"La Chaux-de-Fonds",
+"station_symbol":1,
+"value":36.7,
+"wind_direction": 229,
+"wind_direction_radian":3.996804,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1027.64",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>La Chaux-de-Fonds (CDF)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>36.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>229 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1027.64 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CDF\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2633246.89,1253850.61]},
+"id":"RUE",
+"properties":{
+"station_name":"Rünenberg",
+"station_symbol":1,
+"value":42.5,
+"wind_direction": 234,
+"wind_direction_radian":4.08407,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "620.97",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Rünenberg (RUE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>42.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>234 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>620.97 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=RUE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2648394.70,1248372.84]},
+"id":"BUS",
+"properties":{
+"station_name":"Buchs / Aarau",
+"station_symbol":1,
+"value":40.3,
+"wind_direction": 230,
+"wind_direction_radian":4.014257,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "396.64",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Buchs / Aarau (BUS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>40.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>230 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>396.64 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BUS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2665469.52,1209719.36]},
+"id":"LUZ",
+"properties":{
+"station_name":"Luzern",
+"station_symbol":1,
+"value":30.6,
+"wind_direction": 184,
+"wind_direction_radian":3.211406,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "494.92",
+"measurement_height": "40.92 m (auf 32.51 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Luzern (LUZ)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>30.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>184 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>494.92 m (Höhe ü. Boden: 40.92 m (auf 32.51 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Gebäude in 41 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=LUZ\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2674059.60,1186059.64]},
+"id":"ENG",
+"properties":{
+"station_name":"Engelberg",
+"station_symbol":1,
+"value":23.0,
+"wind_direction": 249,
+"wind_direction_radian":4.34587,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1048.23",
+"measurement_height": "28.23 m (auf 18.23 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Engelberg (ENG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>23.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>249 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1048.23 m (Höhe ü. Boden: 28.23 m (auf 18.23 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ENG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2688172.13,1283071.81]},
+"id":"SHA",
+"properties":{
+"station_name":"Schaffhausen",
+"station_symbol":1,
+"value":43.2,
+"wind_direction": 241,
+"wind_direction_radian":4.206243,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "576.49",
+"measurement_height": "53.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Schaffhausen (SHA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>43.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>241 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>576.49 m (Höhe ü. Boden: 53.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Turm in 53 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SHA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2685111.57,1248098.06]},
+"id":"SMA",
+"properties":{
+"station_name":"Zürich / Fluntern",
+"station_symbol":1,
+"value":51.5,
+"wind_direction": 228,
+"wind_direction_radian":3.979351,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "585.05",
+"measurement_height": "28.05 m (auf 14.90 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Zürich / Fluntern (SMA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>51.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>228 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>585.05 m (Höhe ü. Boden: 28.05 m (auf 14.90 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SMA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2734223.18,1147254.85]},
+"id":"SBE",
+"properties":{
+"station_name":"S. Bernardino",
+"station_symbol":1,
+"value":5.8,
+"wind_direction": 333,
+"wind_direction_radian":5.811946,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1654.71",
+"measurement_height": "24.70 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>S. Bernardino (SBE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>333 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1654.71 m (Höhe ü. Boden: 24.70 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SBE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2780616.09,1189635.71]},
+"id":"WFJ",
+"properties":{
+"station_name":"Weissfluhjoch",
+"station_symbol":1,
+"value":68.0,
+"wind_direction": 249,
+"wind_direction_radian":4.34587,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2701.26",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Weissfluhjoch (WFJ)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>68.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>249 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2701.26 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=WFJ\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2783155.78,1143524.30]},
+"id":"COV",
+"properties":{
+"station_name":"Piz Corvatsch",
+"station_symbol":1,
+"value":47.9,
+"wind_direction": 259,
+"wind_direction_radian":4.520403,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "3318.98",
+"measurement_height": "24.67 m (auf 18.17 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Piz Corvatsch (COV)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>47.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>259 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>3318.98 m (Höhe ü. Boden: 24.67 m (auf 18.17 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=COV\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2610911.79,1265610.24]},
+"id":"BAS",
+"properties":{
+"station_name":"Basel / Binningen",
+"station_symbol":1,
+"value":40.7,
+"wind_direction": 234,
+"wind_direction_radian":4.08407,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "328.14",
+"measurement_height": "12.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Basel / Binningen (BAS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>40.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>234 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>328.14 m (Höhe ü. Boden: 12.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BAS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2506875.96,1139580.28]},
+"id":"CGI",
+"properties":{
+"station_name":"Nyon / Changins",
+"station_symbol":1,
+"value":99999,
+"wind_direction": 99999,
+"wind_direction_radian":99999,
+"unit": "km/h",
+"reference_ts": "-",
+"altitude": "468.23",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Nyon / Changins (CGI)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td class='text-nowrap'><strong>Böenspitze</strong></td><td>-</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>468.23 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CGI\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2534223.55,1188088.31]},
+"id":"FRE",
+"properties":{
+"station_name":"Bullet / La Frétaz",
+"station_symbol":1,
+"value":40.7,
+"wind_direction": 227,
+"wind_direction_radian":3.961897,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1215.30",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bullet / La Frétaz (FRE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>40.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>227 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1215.30 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=FRE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2601932.53,1204416.42]},
+"id":"BER",
+"properties":{
+"station_name":"Bern / Zollikofen",
+"station_symbol":1,
+"value":40.0,
+"wind_direction": 229,
+"wind_direction_radian":3.996804,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "562.96",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bern / Zollikofen (BER)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>40.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>229 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>562.96 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BER\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2738420.50,1273963.26]},
+"id":"GUT",
+"properties":{
+"station_name":"Güttingen",
+"station_symbol":1,
+"value":41.8,
+"wind_direction": 240,
+"wind_direction_radian":4.18879,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "451.78",
+"measurement_height": "12.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Güttingen (GUT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>41.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>240 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>451.78 m (Höhe ü. Boden: 12.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GUT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2640419.48,1245951.30]},
+"id":"GOE",
+"properties":{
+"station_name":"Gösgen",
+"station_symbol":1,
+"value":61.9,
+"wind_direction": 240,
+"wind_direction_radian":4.18879,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "390.49",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Gösgen (GOE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>61.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>240 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>390.49 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GOE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2693790.14,1230837.26]},
+"id":"WAE",
+"properties":{
+"station_name":"Wädenswil",
+"station_symbol":1,
+"value":39.2,
+"wind_direction": 256,
+"wind_direction_radian":4.468043,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "507.04",
+"measurement_height": "29.54 m (auf 19.54 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Wädenswil (WAE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>39.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>256 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>507.04 m (Höhe ü. Boden: 29.54 m (auf 19.54 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=WAE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2710516.42,1259825.78]},
+"id":"TAE",
+"properties":{
+"station_name":"Aadorf / Tänikon",
+"station_symbol":1,
+"value":37.8,
+"wind_direction": 224,
+"wind_direction_radian":3.909538,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "547.90",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Aadorf / Tänikon (TAE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>37.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>224 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>547.90 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=TAE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2681431.44,1253552.13]},
+"id":"REH",
+"properties":{
+"station_name":"Zürich / Affoltern",
+"station_symbol":1,
+"value":46.8,
+"wind_direction": 245,
+"wind_direction_radian":4.276057,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "453.58",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Zürich / Affoltern (REH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>245 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>453.58 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=REH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2704153.03,1114346.32]},
+"id":"OTL",
+"properties":{
+"station_name":"Locarno / Monti",
+"station_symbol":1,
+"value":2.5,
+"wind_direction": 41,
+"wind_direction_radian":0.715585,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "391.97",
+"measurement_height": "19.25 m (auf 9.25 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Locarno / Monti (OTL)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>2.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>41 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>391.97 m (Höhe ü. Boden: 19.25 m (auf 9.25 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=OTL\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2659811.09,1267699.61]},
+"id":"BEZ",
+"properties":{
+"station_name":"Beznau",
+"station_symbol":1,
+"value":35.6,
+"wind_direction": 214,
+"wind_direction_radian":3.735005,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "335.44",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Beznau (BEZ)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>35.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>214 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>335.44 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BEZ\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2587790.78,1202482.88]},
+"id":"MUB",
+"properties":{
+"station_name":"Mühleberg",
+"station_symbol":1,
+"value":36.7,
+"wind_direction": 253,
+"wind_direction_radian":4.415683,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "489.67",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Mühleberg (MUB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>36.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>253 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>489.67 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MUB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2704431.22,1117458.49]},
+"id":"CIM",
+"properties":{
+"station_name":"Cimetta",
+"station_symbol":1,
+"value":35.6,
+"wind_direction": 237,
+"wind_direction_radian":4.13643,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1670.88",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Cimetta (CIM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>35.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>237 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1670.88 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CIM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2605526.42,1106640.18]},
+"id":"EVO",
+"properties":{
+"station_name":"Evolène / Villa",
+"station_symbol":1,
+"value":25.6,
+"wind_direction": 340,
+"wind_direction_radian":5.934119,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1838.63",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Evolène / Villa (EVO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>25.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>340 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1838.63 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=EVO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2656352.69,1272117.13]},
+"id":"LEI",
+"properties":{
+"station_name":"Leibstadt",
+"station_symbol":1,
+"value":43.9,
+"wind_direction": 250,
+"wind_direction_radian":4.363323,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "351.13",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Leibstadt (LEI)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>43.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>250 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>351.13 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=LEI\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2668583.30,1158214.72]},
+"id":"GRH",
+"properties":{
+"station_name":"Grimsel Hospiz",
+"station_symbol":1,
+"value":31.3,
+"wind_direction": 352,
+"wind_direction_radian":6.143559,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1992.00",
+"measurement_height": "12.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Grimsel Hospiz (GRH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>31.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>352 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1992.00 m (Höhe ü. Boden: 12.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GRH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2714981.02,1146390.02]},
+"id":"COM",
+"properties":{
+"station_name":"Acquarossa / Comprovasco",
+"station_symbol":1,
+"value":14.4,
+"wind_direction": 305,
+"wind_direction_radian":5.323254,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "601.20",
+"measurement_height": "25.20 m (auf 15.20 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Acquarossa / Comprovasco (COM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>14.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>305 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>601.20 m (Höhe ü. Boden: 25.20 m (auf 15.20 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=COM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2672251.01,1259459.95]},
+"id":"LAE",
+"properties":{
+"station_name":"Lägern",
+"station_symbol":1,
+"value":68.0,
+"wind_direction": 206,
+"wind_direction_radian":3.595378,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "873.26",
+"measurement_height": "28.71 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Lägern (LAE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>68.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>206 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>873.26 m (Höhe ü. Boden: 28.71 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Turm in 28 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=LAE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2713504.44,1247757.87]},
+"id":"HOE",
+"properties":{
+"station_name":"Hörnli",
+"station_symbol":1,
+"value":73.4,
+"wind_direction": 271,
+"wind_direction_radian":4.729842,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1145.11",
+"measurement_height": "15.11 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Hörnli (HOE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>73.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>271 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1145.11 m (Höhe ü. Boden: 15.11 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=HOE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2586830.15,1177409.37]},
+"id":"PLF",
+"properties":{
+"station_name":"Plaffeien",
+"station_symbol":1,
+"value":58.7,
+"wind_direction": 241,
+"wind_direction_radian":4.206243,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1052.14",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Plaffeien (PLF)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>58.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>241 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1052.14 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PLF\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2682587.68,1144090.99]},
+"id":"ROE",
+"properties":{
+"station_name":"Robièi",
+"station_symbol":1,
+"value":24.5,
+"wind_direction": 353,
+"wind_direction_radian":6.161012,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1910.00",
+"measurement_height": "12.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Robièi (ROE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>24.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>353 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1910.00 m (Höhe ü. Boden: 12.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ROE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2659460.00,1265657.00]},
+"id":"PSI",
+"properties":{
+"station_name":"Würenlingen / PSI",
+"station_symbol":1,
+"value":45.7,
+"wind_direction": 192,
+"wind_direction_radian":3.351032,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "404.00",
+"measurement_height": "70.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Würenlingen / PSI (PSI)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>45.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>192 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>404.00 m (Höhe ü. Boden: 70.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Turm in 70 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PSI\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2657995.87,1135421.46]},
+"id":"BIN",
+"properties":{
+"station_name":"Binn",
+"station_symbol":1,
+"value":9.7,
+"wind_direction": 278,
+"wind_direction_radian":4.852015,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1489.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Binn (BIN)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>9.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>278 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1489.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BIN\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2629148.17,1089519.60]},
+"id":"MRP",
+"properties":{
+"station_name":"Monte Rosa-Plattje",
+"station_symbol":1,
+"value":46.4,
+"wind_direction": 308,
+"wind_direction_radian":5.375614,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2891.50",
+"measurement_height": "6.50 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Monte Rosa-Plattje (MRP)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>308 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2891.50 m (Höhe ü. Boden: 6.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MRP\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2567374.27,1107577.30]},
+"id":"MAR",
+"properties":{
+"station_name":"Les Marécottes",
+"station_symbol":1,
+"value":8.6,
+"wind_direction": 248,
+"wind_direction_radian":4.328417,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1000.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Les Marécottes (MAR)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>8.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>248 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1000.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MAR\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2691000.04,1215145.22]},
+"id":"SAG",
+"properties":{
+"station_name":"Sattel, SZ",
+"station_symbol":1,
+"value":19.4,
+"wind_direction": 202,
+"wind_direction_radian":3.525565,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "800.10",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Sattel, SZ (SAG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>19.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>202 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>800.10 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SAG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2677758.87,1226878.00]},
+"id":"CHZ",
+"properties":{
+"station_name":"Cham",
+"station_symbol":1,
+"value":28.1,
+"wind_direction": 228,
+"wind_direction_radian":3.979351,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "452.50",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Cham (CHZ)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>28.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>228 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>452.50 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CHZ\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2618695.70,1269036.53]},
+"id":"STC",
+"properties":{
+"station_name":"St. Chrischona",
+"station_symbol":1,
+"value":59.8,
+"wind_direction": 249,
+"wind_direction_radian":4.34587,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "725.00",
+"measurement_height": "232.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>St. Chrischona (STC)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>59.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>249 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>725.00 m (Höhe ü. Boden: 232.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Turm in 232 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=STC\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2573621.03,1225603.95]},
+"id":"COY",
+"properties":{
+"station_name":"Courtelary",
+"station_symbol":1,
+"value":46.8,
+"wind_direction": 243,
+"wind_direction_radian":4.24115,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "705.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Courtelary (COY)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>243 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>705.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=COY\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2552108.67,1146853.39]},
+"id":"VEV",
+"properties":{
+"station_name":"Vevey / Corseaux",
+"station_symbol":1,
+"value":18.0,
+"wind_direction": 290,
+"wind_direction_radian":5.061455,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "415.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Vevey / Corseaux (VEV)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>18.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>290 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>415.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VEV\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2555263.50,1138175.39]},
+"id":"BOU",
+"properties":{
+"station_name":"Bouveret",
+"station_symbol":1,
+"value":11.9,
+"wind_direction": 139,
+"wind_direction_radian":2.426008,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "384.50",
+"measurement_height": "10.50 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bouveret (BOU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>11.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>139 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>384.50 m (Höhe ü. Boden: 10.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BOU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2675400.57,1180399.77]},
+"id":"TIT",
+"properties":{
+"station_name":"Titlis",
+"station_symbol":1,
+"value":74.2,
+"wind_direction": 277,
+"wind_direction_radian":4.834562,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "3102.00",
+"measurement_height": "62.00 m (auf 50.00 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Titlis (TIT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>74.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>277 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>3102.00 m (Höhe ü. Boden: 62.00 m (auf 50.00 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=TIT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2616771.49,1160883.78]},
+"id":"FRU",
+"properties":{
+"station_name":"Frutigen",
+"station_symbol":1,
+"value":11.2,
+"wind_direction": 27,
+"wind_direction_radian":0.471239,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "766.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Frutigen (FRU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>11.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>27 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>766.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=FRU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2633053.72,1269147.42]},
+"id":"MOE",
+"properties":{
+"station_name":"Möhlin",
+"station_symbol":1,
+"value":26.6,
+"wind_direction": 276,
+"wind_direction_radian":4.817109,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "354.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Möhlin (MOE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>26.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>276 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>354.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MOE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2533457.71,1176567.60]},
+"id":"MAH",
+"properties":{
+"station_name":"Mathod",
+"station_symbol":1,
+"value":49.3,
+"wind_direction": 189,
+"wind_direction_radian":3.298672,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "447.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Mathod (MAH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>49.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>189 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>447.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MAH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2513820.67,1169387.71]},
+"id":"CHB",
+"properties":{
+"station_name":"Les Charbonnières",
+"station_symbol":1,
+"value":36.0,
+"wind_direction": 226,
+"wind_direction_radian":3.944444,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1055.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Les Charbonnières (CHB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>36.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>226 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1055.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CHB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2614323.35,1110735.93]},
+"id":"MTE",
+"properties":{
+"station_name":"Mottec",
+"station_symbol":1,
+"value":13.0,
+"wind_direction": 160,
+"wind_direction_radian":2.792527,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1590.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Mottec (MTE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>13.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>160 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1590.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MTE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2523548.53,1148525.56]},
+"id":"PRE",
+"properties":{
+"station_name":"St-Prex",
+"station_symbol":1,
+"value":23.0,
+"wind_direction": 254,
+"wind_direction_radian":4.433136,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "435.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>St-Prex (PRE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>23.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>254 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>435.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PRE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2734017.13,1165551.23]},
+"id":"VLS",
+"properties":{
+"station_name":"Vals",
+"station_symbol":1,
+"value":11.5,
+"wind_direction": 44,
+"wind_direction_radian":0.767945,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1252.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Vals (VLS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>11.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>44 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1252.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VLS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2760382.96,1261386.41]},
+"id":"ARH",
+"properties":{
+"station_name":"Altenrhein",
+"station_symbol":1,
+"value":29.5,
+"wind_direction": 247,
+"wind_direction_radian":4.310963,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "408.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Altenrhein (ARH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>29.5 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>247 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>408.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ARH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2679454.88,1245033.85]},
+"id":"UEB",
+"properties":{
+"station_name":"Uetliberg",
+"station_symbol":1,
+"value":70.6,
+"wind_direction": 235,
+"wind_direction_radian":4.101524,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1016.00",
+"measurement_height": "162.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Uetliberg (UEB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>70.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>235 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1016.00 m (Höhe ü. Boden: 162.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Turm in 162 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=UEB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2688477.46,1171925.64]},
+"id":"GOS",
+"properties":{
+"station_name":"Göschenen",
+"station_symbol":1,
+"value":14.8,
+"wind_direction": 14,
+"wind_direction_radian":0.244346,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "960.30",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Göschenen (GOS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>14.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>14 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>960.30 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GOS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2752690.66,1164041.79]},
+"id":"AND",
+"properties":{
+"station_name":"Andeer",
+"station_symbol":1,
+"value":5.4,
+"wind_direction": 43,
+"wind_direction_radian":0.750492,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "996.62",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Andeer (AND)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>43 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>996.62 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=AND\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2771279.65,1148115.22]},
+"id":"BIV",
+"properties":{
+"station_name":"Bivio",
+"station_symbol":1,
+"value":12.2,
+"wind_direction": 90,
+"wind_direction_radian":1.570796,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1866.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bivio (BIV)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>12.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>90 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1866.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BIV\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2714263.86,1140943.05]},
+"id":"MTR",
+"properties":{
+"station_name":"Matro",
+"station_symbol":1,
+"value":61.6,
+"wind_direction": 294,
+"wind_direction_radian":5.131268,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2193.10",
+"measurement_height": "22.10 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Matro (MTR)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>61.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>294 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2193.10 m (Höhe ü. Boden: 22.10 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MTR\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2717885.45,1134316.35]},
+"id":"BIA",
+"properties":{
+"station_name":"Biasca",
+"station_symbol":1,
+"value":6.8,
+"wind_direction": 155,
+"wind_direction_radian":2.70526,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "319.00",
+"measurement_height": "30.00 m (auf 20.00 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Biasca (BIA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>6.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>155 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>319.00 m (Höhe ü. Boden: 30.00 m (auf 20.00 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BIA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2713722.80,1231495.78]},
+"id":"SCM",
+"properties":{
+"station_name":"Schmerikon",
+"station_symbol":1,
+"value":10.4,
+"wind_direction": 235,
+"wind_direction_radian":4.101524,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "418.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Schmerikon (SCM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>10.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>235 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>418.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SCM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2688729.04,1220956.10]},
+"id":"AEG",
+"properties":{
+"station_name":"Oberägeri",
+"station_symbol":1,
+"value":31.0,
+"wind_direction": 267,
+"wind_direction_radian":4.660029,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "734.43",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Oberägeri (AEG)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>31.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>267 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>734.43 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=AEG\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2777274.07,1166618.33]},
+"id":"LAT",
+"properties":{
+"station_name":"Bergün / Latsch",
+"station_symbol":1,
+"value":6.8,
+"wind_direction": 243,
+"wind_direction_radian":4.24115,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1417.85",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bergün / Latsch (LAT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>6.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>243 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1417.85 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=LAT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2583491.37,1102189.07]},
+"id":"MOB",
+"properties":{
+"station_name":"Montagnier, Bagnes",
+"station_symbol":1,
+"value":12.2,
+"wind_direction": 321,
+"wind_direction_radian":5.602507,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "849.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Montagnier, Bagnes (MOB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>12.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>321 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>849.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MOB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2573821.12,1137856.58]},
+"id":"CDM",
+"properties":{
+"station_name":"Col des Mosses",
+"station_symbol":1,
+"value":11.2,
+"wind_direction": 163,
+"wind_direction_radian":2.844887,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1422.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Col des Mosses (CDM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>11.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>163 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1422.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CDM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2647592.59,1116357.62]},
+"id":"SIM",
+"properties":{
+"station_name":"Simplon-Dorf",
+"station_symbol":1,
+"value":75.6,
+"wind_direction": 314,
+"wind_direction_radian":5.480334,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1487.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Simplon-Dorf (SIM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>75.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>314 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1487.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SIM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2816495.06,1170224.99]},
+"id":"BUF",
+"properties":{
+"station_name":"Buffalora",
+"station_symbol":1,
+"value":5.4,
+"wind_direction": 108,
+"wind_direction_radian":1.884956,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1978.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Buffalora (BUF)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>108 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1978.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BUF\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2737720.71,1263609.58]},
+"id":"BIZ",
+"properties":{
+"station_name":"Bischofszell / Sitterdorf",
+"station_symbol":1,
+"value":53.6,
+"wind_direction": 228,
+"wind_direction_radian":3.979351,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "517.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bischofszell / Sitterdorf (BIZ)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>53.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>228 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>517.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BIZ\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2644328.85,1193314.83]},
+"id":"FLU",
+"properties":{
+"station_name":"Flühli, LU",
+"station_symbol":1,
+"value":28.1,
+"wind_direction": 128,
+"wind_direction_radian":2.234021,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "949.75",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Flühli, LU (FLU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>28.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>128 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>949.75 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=FLU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2595831.05,1163587.26]},
+"id":"BOL",
+"properties":{
+"station_name":"Boltigen",
+"station_symbol":1,
+"value":27.7,
+"wind_direction": 207,
+"wind_direction_radian":3.612832,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "830.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Boltigen (BOL)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>27.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>207 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>830.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BOL\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2611200.69,1177640.11]},
+"id":"THU",
+"properties":{
+"station_name":"Thun",
+"station_symbol":1,
+"value":6.8,
+"wind_direction": 31,
+"wind_direction_radian":0.541052,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "580.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Thun (THU)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>6.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>31 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>580.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=THU\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2571761.65,1167321.01]},
+"id":"MAS",
+"properties":{
+"station_name":"Marsens",
+"station_symbol":1,
+"value":32.8,
+"wind_direction": 222,
+"wind_direction_radian":3.874631,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "724.50",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Marsens (MAS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>32.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>222 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>724.50 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MAS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2544197.78,1163651.11]},
+"id":"VIT",
+"properties":{
+"station_name":"Villars-Tiercelin",
+"station_symbol":1,
+"value":41.4,
+"wind_direction": 219,
+"wind_direction_radian":3.822271,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "869.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Villars-Tiercelin (VIT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>41.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>219 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>869.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VIT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2598216.33,1225348.45]},
+"id":"GRE",
+"properties":{
+"station_name":"Grenchen",
+"station_symbol":1,
+"value":46.1,
+"wind_direction": 237,
+"wind_direction_radian":4.13643,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "437.90",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Grenchen (GRE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>237 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>437.90 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GRE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2660128.50,1232851.90]},
+"id":"MOA",
+"properties":{
+"station_name":"Mosen",
+"station_symbol":1,
+"value":46.4,
+"wind_direction": 221,
+"wind_direction_radian":3.857178,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "462.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Mosen (MOA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>221 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>462.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=MOA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2689688.01,1130564.30]},
+"id":"CEV",
+"properties":{
+"station_name":"Cevio",
+"station_symbol":1,
+"value":11.9,
+"wind_direction": 29,
+"wind_direction_radian":0.506145,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "433.85",
+"measurement_height": "16.85 m (auf 6.85 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Cevio (CEV)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>11.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>29 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>433.85 m (Höhe ü. Boden: 16.85 m (auf 6.85 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CEV\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2571160.03,1210800.51]},
+"id":"CRM",
+"properties":{
+"station_name":"Cressier",
+"station_symbol":1,
+"value":53.3,
+"wind_direction": 227,
+"wind_direction_radian":3.961897,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "441.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Cressier (CRM)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>53.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>227 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>441.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CRM\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2732836.80,1189374.65]},
+"id":"CMA",
+"properties":{
+"station_name":"Crap Masegn",
+"station_symbol":1,
+"value":106.9,
+"wind_direction": 283,
+"wind_direction_radian":4.939282,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2497.52",
+"measurement_height": "30.00 m (auf 20.00 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Crap Masegn (CMA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>106.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>283 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2497.52 m (Höhe ü. Boden: 30.00 m (auf 20.00 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=CMA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2722503.24,1087454.53]},
+"id":"GEN",
+"properties":{
+"station_name":"Monte Generoso",
+"station_symbol":1,
+"value":38.9,
+"wind_direction": 318,
+"wind_direction_radian":5.550147,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1610.40",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Monte Generoso (GEN)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>38.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>318 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1610.40 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GEN\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2515886.98,1153210.53]},
+"id":"BIE",
+"properties":{
+"station_name":"Bière",
+"station_symbol":1,
+"value":23.0,
+"wind_direction": 227,
+"wind_direction_radian":3.961897,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "693.65",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bière (BIE)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>23.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>227 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>693.65 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BIE\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2555505.34,1158052.38]},
+"id":"ORO",
+"properties":{
+"station_name":"Oron",
+"station_symbol":1,
+"value":40.7,
+"wind_direction": 235,
+"wind_direction_radian":4.101524,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "837.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Oron (ORO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>40.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>235 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>837.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ORO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2536981.24,1203974.72]},
+"id":"BRL",
+"properties":{
+"station_name":"La Brévine",
+"station_symbol":1,
+"value":46.1,
+"wind_direction": 245,
+"wind_direction_radian":4.276057,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1060.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>La Brévine (BRL)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>46.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>245 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1060.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BRL\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2606850.14,1202975.05]},
+"id":"BAN",
+"properties":{
+"station_name":"Bantiger",
+"station_symbol":1,
+"value":92.9,
+"wind_direction": 244,
+"wind_direction_radian":4.258603,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1096.50",
+"measurement_height": "155.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Bantiger (BAN)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>92.9 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>244 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1096.50 m (Höhe ü. Boden: 155.00 m)</td></tr><tr><td class='text-nowrap'><strong>Bemerkung</strong></td><td>Windmessung an exponierter Lage auf Turm in 155 m Höhe über Boden.</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BAN\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2642913.60,1225540.12]},
+"id":"EGO",
+"properties":{
+"station_name":"Egolzwil",
+"station_symbol":1,
+"value":61.2,
+"wind_direction": 262,
+"wind_direction_radian":4.572763,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "531.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Egolzwil (EGO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>61.2 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>262 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>531.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=EGO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2715871.97,1280915.57]},
+"id":"STK",
+"properties":{
+"station_name":"Steckborn",
+"station_symbol":1,
+"value":72.4,
+"wind_direction": 224,
+"wind_direction_radian":3.909538,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "408.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Steckborn (STK)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>72.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>224 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>408.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=STK\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2581913.49,1130622.31]},
+"id":"DIA",
+"properties":{
+"station_name":"Les Diablerets",
+"station_symbol":1,
+"value":54.0,
+"wind_direction": 250,
+"wind_direction_radian":4.363323,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2974.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Les Diablerets (DIA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>54.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>250 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2974.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=DIA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2647552.72,1176803.02]},
+"id":"BRZ",
+"properties":{
+"station_name":"Brienz",
+"station_symbol":1,
+"value":8.6,
+"wind_direction": 56,
+"wind_direction_radian":0.977384,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "577.15",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Brienz (BRZ)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>8.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>56 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>577.15 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=BRZ\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2643684.53,1199709.96]},
+"id":"SPF",
+"properties":{
+"station_name":"Schüpfheim",
+"station_symbol":1,
+"value":45.7,
+"wind_direction": 209,
+"wind_direction_radian":3.647738,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "754.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Schüpfheim (SPF)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>45.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>209 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>754.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SPF\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2734848.70,1221277.72]},
+"id":"QUI",
+"properties":{
+"station_name":"Quinten",
+"station_symbol":1,
+"value":28.1,
+"wind_direction": 295,
+"wind_direction_radian":5.148721,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "429.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Quinten (QUI)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>28.1 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>295 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>429.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=QUI\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2761635.61,1180384.72]},
+"id":"VAB",
+"properties":{
+"station_name":"Valbella",
+"station_symbol":1,
+"value":28.8,
+"wind_direction": 8,
+"wind_direction_radian":0.139626,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1579.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Valbella (VAB)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>28.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>8 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1579.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VAB\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2760261.80,1160569.58]},
+"id":"PMA",
+"properties":{
+"station_name":"Piz Martegnas",
+"station_symbol":1,
+"value":52.6,
+"wind_direction": 306,
+"wind_direction_radian":5.340708,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2678.34",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Piz Martegnas (PMA)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>52.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>306 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2678.34 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=PMA\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2815374.99,1188987.02]},
+"id":"NAS",
+"properties":{
+"station_name":"Naluns / Schlivera",
+"station_symbol":1,
+"value":54.4,
+"wind_direction": 272,
+"wind_direction_radian":4.747296,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2390.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Naluns / Schlivera (NAS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>54.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>272 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2390.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=NAS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2586855.06,1105302.49]},
+"id":"ATT",
+"properties":{
+"station_name":"Les Attelas",
+"station_symbol":1,
+"value":45.7,
+"wind_direction": 248,
+"wind_direction_radian":4.328417,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2752.21",
+"measurement_height": "17.00 m (auf 7.00 m Dach)",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Les Attelas (ATT)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>45.7 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>248 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2752.21 m (Höhe ü. Boden: 17.00 m (auf 7.00 m Dach))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=ATT\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2568196.35,1114693.34]},
+"id":"EVI",
+"properties":{
+"station_name":"Evionnaz",
+"station_symbol":1,
+"value":36.4,
+"wind_direction": 314,
+"wind_direction_radian":5.480334,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "492.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Evionnaz (EVI)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>36.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>314 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>492.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=EVI\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2626899.24,1092511.59]},
+"id":"GOR",
+"properties":{
+"station_name":"Gornergrat",
+"station_symbol":1,
+"value":86.4,
+"wind_direction": 313,
+"wind_direction_radian":5.462881,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "3139.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Gornergrat (GOR)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>86.4 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>313 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>3139.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GOR\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2650278.86,1141896.53]},
+"id":"EGH",
+"properties":{
+"station_name":"Eggishorn",
+"station_symbol":1,
+"value":85.3,
+"wind_direction": 277,
+"wind_direction_radian":4.834562,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "2903.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Eggishorn (EGH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>85.3 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>277 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>2903.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=EGH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2657320.57,1188979.84]},
+"id":"GIH",
+"properties":{
+"station_name":"Giswil",
+"station_symbol":1,
+"value":28.8,
+"wind_direction": 191,
+"wind_direction_radian":3.333579,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "481.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Giswil (GIH)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>28.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>191 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>481.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GIH\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2682506.17,1205572.46]},
+"id":"GES",
+"properties":{
+"station_name":"Gersau",
+"station_symbol":1,
+"value":9.0,
+"wind_direction": 344,
+"wind_direction_radian":6.003933,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "529.60",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Gersau (GES)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>9.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>344 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>529.60 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=GES\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2769618.27,1205124.93]},
+"id":"SRS",
+"properties":{
+"station_name":"Schiers",
+"station_symbol":1,
+"value":5.8,
+"wind_direction": 284,
+"wind_direction_radian":4.956735,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "636.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Schiers (SRS)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>5.8 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>284 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>636.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=SRS\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2768486.51,1135865.53]},
+"id":"VIO",
+"properties":{
+"station_name":"Vicosoprano",
+"station_symbol":1,
+"value":14.0,
+"wind_direction": 23,
+"wind_direction_radian":0.401426,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "1099.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Vicosoprano (VIO)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>14.0 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>23 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>1099.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=VIO\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+,{ "type":"Feature",
+"geometry":{
+"type":"Point",
+"coordinates":[2764171.18,1249582.17]},
+"id":"OBR",
+"properties":{
+"station_name":"Oberriet / Kriessern",
+"station_symbol":1,
+"value":52.6,
+"wind_direction": 246,
+"wind_direction_radian":4.29351,
+"unit": "km/h",
+"reference_ts": "2022-01-31T07:20:00Z",
+"altitude": "419.00",
+"measurement_height": "10.00 m",
+"description":"<table><tbody><tr><td class='text-nowrap'><strong>Stationsname</strong></td><td>Oberriet / Kriessern (OBR)</td></tr><tr><td class='text-nowrap'><strong>Stationstyp</strong></td><td>Wetterstation</td></tr><tr><td class='text-nowrap'><strong>Eigentümer</strong></td><td>MeteoSchweiz</td></tr><tr><td><strong>Böenspitze</strong></td><td>52.6 km/h (31.01.2022 08:20)</td></tr><tr><td><strong>Windrichtung</strong></td><td>246 °</td></tr><tr><td class='text-nowrap'><strong>Messhöhe</strong></td><td>419.00 m (Höhe ü. Boden: 10.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoschweiz.admin.ch/home/messwerte.html?param=messwerte-wind-boeenspitze-kmh-10min&station=OBR\">Informationen zu dieser Station</a></td></tr></tbody></table>"}
+}
+] }

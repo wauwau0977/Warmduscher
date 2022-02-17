@@ -1,0 +1,51 @@
+Installation of JDK 11 on Rasperi Zero (v1!) is difficult, as it's ARM 6.
+
+# seems not to work... final last update failed
+https://docs.azul.com/core/zulu-openjdk/install/debian
+
+# on Raspberry Pi Zero 2 W (v2)
+    sudo apt update
+    sudo apt install default-jdk   # installs java 11
+
+# manual (if on raspberry pi zero W v1)
+https://joshefin.xyz/install-java-11-on-a-raspberry-pi/
+
+    Get architecture:
+        dpkg --print-architecture  # gives architecture
+        getconf LONG_BIT  # show if 64 or 32 bit
+
+    Download and set filters right...
+        no linux version, nut ARM-HF in 32 bit
+        https://www.azul.com/downloads/?version=java-11-lts&os=linux&architecture=arm-32-bit-hf&package=jdk
+        results in: https://cdn.azul.com/zulu-embedded/bin/zulu11.52.13-ca-jdk11.0.13-linux_aarch32hf.tar.gz
+        extract: tar xfvz zulu11.31.16-ca-jdk11.0.3-linux_aarch32hf.tar.gz  to /opt/java
+
+        add symbolic alternative links:
+            sudo update-alternatives --install /usr/bin/java java /opt/jdk/xxxx/bin/java 1
+
+        and select the alternative (always):
+            sudo update-alternatives --config java
+
+        install java 17 from zulu for Rasperry Zero 2 (64bit)
+            # Attention: Java 17 is not yet available for Raspberry Pi Zero v1 (as per 2.2022)
+            su su
+            dpkg --print-architecture  # gives architecture
+            getconf LONG_BIT  # show if 64 or 32 bit
+            wget https://cdn.azul.com/zulu-embedded/bin/zulu17.32.13-ca-jdk17.0.2-linux_aarch32hf.tar.gz
+            tar xfvz  zulu17.32.13-ca-jdk17.0.2-linux_aarch32hf.tar.gz
+            mv zulu17.32.13-ca-jdk17.0.2-linux_aarch32hf/ /opt/jdk
+            sudo update-alternatives --install /usr/bin/java java /opt/jdk/zulu17.32.13-ca-jdk17.0.2-linux_aarch32hf/bin/java 1
+            sudo update-alternatives --config java
+
+JDKMan (Tool)
+    https://foojay.io/today/java-17-on-the-raspberry-pi/
+    $ sudo apt install zip
+    $ curl -s "https://get.sdkman.io" | bash
+    $ source "$HOME/.sdkman/bin/sdkman-init.sh"
+    $ sdk version
+    sdk list java
+
+
+Limit heap size / memory useage:
+    Get the default value: 113M on raspberry
+        java -XX:+UnlockDiagnosticVMOptions -XX:+PrintFlagsFinal -version | grep -i MaxHeapSize

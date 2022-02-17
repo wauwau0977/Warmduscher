@@ -1,0 +1,16 @@
+kernel modul: brcmfmac
+using brcm/brcmfmac43436-sdio for chip BCM43430/2
+Firmware: BCM43430/2 wl0: Oct  9 2020 14:44:32 version 9.88.4.65 (test) (f149b32@shgit)  (r679549) FWID 01-f40f3270
+
+Jan 15 07:51:09 raspberrypi11 kernel: brcmfmac: F1 signature read @0x18000000=0x1542a9a6
+Jan 15 07:51:09 raspberrypi11 kernel: brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43436-sdio for chip BCM43430/2
+Jan 15 07:51:09 raspberrypi11 kernel: usbcore: registered new interface driver brcmfmac
+Jan 15 07:51:09 raspberrypi11 sudo[17928]: pam_unix(sudo:session): session closed for user root
+Jan 15 07:51:09 raspberrypi11 sudo[17934]:       pi : TTY=pts/0 ; PWD=/home/pi/deleteme ; USER=root ; COMMAND=/usr/sbin/ifconfig wlan0 down
+Jan 15 07:51:09 raspberrypi11 sudo[17934]: pam_unix(sudo:session): session opened for user root(uid=0) by pi(uid=1000)
+Jan 15 07:51:09 raspberrypi11 sudo[17934]: pam_unix(sudo:session): session closed for user root
+Jan 15 07:51:10 raspberrypi11 sudo[17938]:       pi : TTY=pts/0 ; PWD=/home/pi/deleteme ; USER=root ; COMMAND=/usr/sbin/ifconfig wlan0 up
+Jan 15 07:51:10 raspberrypi11 sudo[17938]: pam_unix(sudo:session): session opened for user root(uid=0) by pi(uid=1000)
+Jan 15 07:51:10 raspberrypi11 kernel: brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43436-sdio for chip BCM43430/2
+Jan 15 07:51:10 raspberrypi11 kernel: brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43436-sdio for chip BCM43430/2
+Jan 15 07:51:10 raspberrypi11 kernel: brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/2 wl0: Oct  9 2020 14:44:32 version 9.88.4.65 (test) (f149b32@shgit)  (r679549) FWID 01-f40f3270

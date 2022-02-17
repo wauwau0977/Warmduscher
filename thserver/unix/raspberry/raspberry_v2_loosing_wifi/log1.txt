@@ -1,0 +1,84 @@
+
+
+
+==> Service lost :wlan0: carrier lost
+Jan 13 01:19:35 raspberrypi11 kernel: ieee80211 phy0: send_key_to_dongle: wsec_key error (-52)
+Jan 13 01:19:35 raspberrypi11 dhcpcd[431]: wlan0: carrier lost
+Jan 13 01:19:35 raspberrypi11 dhcpcd[431]: wlan0: deleting address fe80::45:ddb8:abd8:134e
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Withdrawing address record for fe80::45:ddb8:abd8:134e on wlan0.
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::45:ddb8:abd8:134e.
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Withdrawing address record for 192.168.1.234 on wlan0.
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.234.
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Jan 13 01:19:35 raspberrypi11 dhcpcd[431]: eth0: adding default route
+Jan 13 01:19:35 raspberrypi11 dhcpcd[431]: wlan0: deleting route to 192.168.1.0/24
+Jan 13 01:19:35 raspberrypi11 dhcpcd[431]: wlan0: deleting default route via 192.168.1.1
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: Got SIGHUP, reloading.
+Jan 13 01:19:35 raspberrypi11 avahi-daemon[338]: No service file found in /etc/avahi/services.
+Jan 13 01:19:37 raspberrypi11 sudo[32285]:     root : PWD=/usr/share/piwiz ; USER=pi ; ENV=XDG_RUNTIME_DIR=/run/user/1000 ; COMMAND=/usr/bin/aplay srprompt.wav
+
+
+
+
+Jan 13 01:51:37 raspberrypi11 sudo[1775]: pam_unix(sudo:session): session opened for user pi(uid=1000) by (uid=0)
+Jan 13 01:51:37 raspberrypi11 sudo[1775]: pam_unix(sudo:session): session closed for user pi
+Jan 13 01:51:37 raspberrypi11 kernel: hdmi-audio-codec hdmi-audio-codec.2.auto: ASoC: error at snd_soc_dai_startup on i2s-hifi: -19
+Jan 13 01:51:52 raspberrypi11 sudo[1788]:     root : PWD=/usr/share/piwiz ; USER=pi ; ENV=XDG_RUNTIME_DIR=/run/user/1000 ; COMMAND=/usr/bin/aplay srprompt.wav
+Jan 13 01:51:52 raspberrypi11 sudo[1788]: pam_unix(sudo:session): session opened for user pi(uid=1000) by (uid=0)
+Jan 13 01:51:52 raspberrypi11 sudo[1788]: pam_unix(sudo:session): session closed for user pi
+Jan 13 01:51:52 raspberrypi11 kernel: hdmi-audio-codec hdmi-audio-codec.2.auto: ASoC: error at snd_soc_dai_startup on i2s-hifi: -19
+
+Service back
+==>
+Jan 13 01:51:54 raspberrypi11 dhcpcd[431]: wlan0: carrier acquired
+Jan 13 01:51:54 raspberrypi11 dhcpcd[431]: wlan0: IAID 01:35:8c:50
+Jan 13 01:51:54 raspberrypi11 dhcpcd[431]: wlan0: adding address fe80::45:ddb8:abd8:134e
+Jan 13 01:51:54 raspberrypi11 avahi-daemon[338]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::45:ddb8:abd8:134e.
+Jan 13 01:51:54 raspberrypi11 avahi-daemon[338]: New relevant interface wlan0.IPv6 for mDNS.
+Jan 13 01:51:54 raspberrypi11 avahi-daemon[338]: Registering new address record for fe80::45:ddb8:abd8:134e on wlan0.*.
+Jan 13 01:51:54 raspberrypi11 dhcpcd[431]: wlan0: rebinding lease of 192.168.1.234
+Jan 13 01:51:54 raspberrypi11 dhcpcd[431]: wlan0: soliciting an IPv6 router
+Jan 13 01:51:54 raspberrypi11 dhcpcd[431]: wlan0: probing address 192.168.1.234/24
+Jan 13 01:52:00 raspberrypi11 dhcpcd[431]: wlan0: leased 192.168.1.234 for 86400 seconds
+Jan 13 01:52:00 raspberrypi11 avahi-daemon[338]: Joining mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.234.
+Jan 13 01:52:00 raspberrypi11 dhcpcd[431]: wlan0: adding route to 192.168.1.0/24
+Jan 13 01:52:00 raspberrypi11 dhcpcd[431]: wlan0: adding default route via 192.168.1.1
+Jan 13 01:52:00 raspberrypi11 dhcpcd[431]: eth0: deleting default route
+Jan 13 01:52:00 raspberrypi11 avahi-daemon[338]: New relevant interface wlan0.IPv4 for mDNS.
+Jan 13 01:52:00 raspberrypi11 avahi-daemon[338]: Registering new address record for 192.168.1.234 on wlan0.IPv4.
+Jan 13 01:52:00 raspberrypi11 avahi-daemon[338]: Got SIGHUP, reloading.
+Jan 13 01:52:00 raspberrypi11 avahi-daemon[338]: No service file found in /etc/avahi/services.
+Jan 13 01:52:00 raspberrypi11 systemd[1]: Stopping Network Time Synchronization...
+Jan 13 01:52:00 raspberrypi11 systemd[1]: systemd-timesyncd.service: Succeeded.
+Jan 13 01:52:00 raspberrypi11 systemd[1]: Stopped Network Time Synchronization.
+Jan 13 01:52:00 raspberrypi11 systemd[1]: Starting Network Time Synchronization...
+Jan 13 01:52:00 raspberrypi11 systemd[1]: Started Network Time Synchronization.
+Jan 13 01:52:00 raspberrypi11 systemd-timesyncd[1857]: Initial synchronization to time server 193.5.60.8:123 (0.debian.pool.ntp.org).
+==>
+
+
+Jan 13 01:52:01 raspberrypi11 thserver-0.0.1-SNAPSHOT.jar[9907]: 2022-01-13 02:52:01,448 INFO  [http-nio-8080-exec-8] com.x8ing.thsensor.thserver.web.MyRequestInterceptor: Did receive a request >
+Jan 13 01:52:01 raspberrypi11 thserver-0.0.1-SNAPSHOT.jar[9907]: 2022-01-13 02:52:01,452 INFO  [http-nio-8080-exec-8] com.x8ing.thsensor.thserver.web.MyRequestInterceptor: Did receive a request >
+Jan 13 01:52:01 raspberrypi11 CRON[1859]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan 13 01:52:01 raspberrypi11 CRON[1860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan 13 01:52:01 raspberrypi11 CRON[1861]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 13 01:52:01 raspberrypi11 CRON[1862]: (root) CMD (root command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 13 01:52:01 raspberrypi11 CRON[1860]: (CRON) info (No MTA installed, discarding output)
+Jan 13 01:52:01 raspberrypi11 CRON[1860]: pam_unix(cron:session): session closed for user root
+Jan 13 01:52:01 raspberrypi11 CRON[1859]: pam_unix(cron:session): session closed for user root
+Jan 13 01:52:07 raspberrypi11 dhcpcd[431]: wlan0: no IPv6 Routers available
+Jan 13 01:52:07 raspberrypi11 sudo[1874]:     root : PWD=/usr/share/piwiz ; USER=pi ; ENV=XDG_RUNTIME_DIR=/run/user/1000 ; COMMAND=/usr/bin/aplay srprompt.wav
+Jan 13 01:52:07 raspberrypi11 sudo[1874]: pam_unix(sudo:session): session opened for user pi(uid=1000) by (uid=0)
+Jan 13 01:52:07 raspberrypi11 sudo[1874]: pam_unix(sudo:session): session closed for user pi
+Jan 13 01:52:07 raspberrypi11 kernel: hdmi-audio-codec hdmi-audio-codec.2.auto: ASoC: error at snd_soc_dai_startup on i2s-hifi: -19
+Jan 13 01:52:11 raspberrypi11 thserver-0.0.1-SNAPSHOT.jar[9907]: 2022-01-13 02:52:11,760 INFO  [scheduling-1] com.x8ing.thsensor.thserver.device.service.impl.HeatingModbusReadService: Completed >
+Jan 13 01:52:11 raspberrypi11 thserver-0.0.1-SNAPSHOT.jar[9907]: 2022-01-13 02:52:11,790 INFO  [scheduling-1] com.x8ing.thsensor.thserver.device.service.HeatingDataPoller: Did poll data and pers>
+Jan 13 01:52:17 raspberrypi11 thserver-0.0.1-SNAPSHOT.jar[9907]: 2022-01-13 02:52:17,784 INFO  [http-nio-8080-exec-7] com.x8ing.thsensor.thserver.web.MyRequestInterceptor: Got request and saved >
+Jan 13 01:52:22 raspberrypi11 sudo[1887]:     root : PWD=/usr/share/piwiz ; USER=pi ; ENV=XDG_RUNTIME_DIR=/run/user/1000 ; COMMAND=/usr/bin/aplay srprompt.wav
+Jan 13 01:52:22 raspberrypi11 sudo[1887]: pam_unix(sudo:session): session opened for user pi(uid=1000) by (uid=0)
+Jan 13 01:52:22 raspberrypi11 kernel: hdmi-audio-codec hdmi-audio-codec.2.auto: ASoC: error at snd_soc_dai_startup on i2s-hifi: -19
+Jan 13 01:52:22 raspberrypi11 sudo[1887]: pam_unix(sudo:session): session closed for user pi
+Jan 13 01:52:37 raspberrypi11 sudo[1900]:     root : PWD=/usr/share/piwiz ; USER=pi ; ENV=XDG_RUNTIME_DIR=/run/user/1000 ; COMMAND=/usr/bin/aplay srprompt.wav
+Jan 13 01:52:37 raspberrypi11 sudo[1900]: pam_unix(sudo:session): session opened for user pi(uid=1000) by (uid=0)
+

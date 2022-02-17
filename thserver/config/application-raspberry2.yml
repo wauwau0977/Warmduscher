@@ -1,0 +1,23 @@
+###############################################################################
+# server properties
+###############################################################################
+thserver:
+  pollingInterval: PT30s
+  heatPumpIP: 169.254.92.80
+
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true # prevent bug SQLFeatureNotSupportedException: Method org.postgresql.jdbc.PgConnection.createClob() is not yet implemented
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driverClassName: org.postgresql.Driver
+    password: thserveruser
+    url: jdbc:postgresql://localhost:5432/thserverdb
+    username: thserveruser
+
+

@@ -1,0 +1,43 @@
+<!--<app-overview-current>-->
+
+<!--</app-overview-current>-->
+
+<!--<app-boiler-chart>-->
+
+<!--</app-boiler-chart>-->
+
+<!--<mat-card>-->
+<!--  <mat-card-subtitle>-->
+<!--    Das Tool für Dusch-Experten :)-->
+<!--  </mat-card-subtitle>-->
+<!--</mat-card>-->
+
+
+<!-- https://stackblitz.com/edit/angular-9-material-starter-par7le?file=src%2Fapp%2Fapp.component.scss -->
+
+<!-- material icons https://jossef.github.io/material-design-icons-iconfont/ -->
+
+<router-outlet class="myContent"></router-outlet>
+<div class="myLastSpace"></div>
+
+
+<footer>
+
+  <mat-toolbar class="toolbarNav">
+    <mat-toolbar-row>
+      <button mat-flat-button routerLink="/dashboard" routerLinkActive="active-link">
+        <mat-icon class="">dashboard</mat-icon>
+        <span class="toolbarText">Übersicht</span>
+      </button>
+      <button mat-flat-button routerLink="/insights" routerLinkActive="active-link">
+        <mat-icon class="material-icons">insights</mat-icon>
+        <span class="toolbarText">Diagramme</span>
+      </button>
+      <button mat-flat-button routerLink="/about" routerLinkActive="active-link">
+        <mat-icon class="material-icons">info</mat-icon>
+        <span class="toolbarText">Über die App</span>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</footer>
+

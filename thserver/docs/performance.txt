@@ -1,0 +1,9 @@
+On Raspberry v1 after 2 weeks of operation:
+
+    service current:            200 - 400 ms
+    between dates every 900s:   500 - 800 ms (max at 1500 ms)
+
+On Raspberry v2 after 2 weeks of operation:
+
+    service current:            140 - 370 ms
+    between dates every 900s:   360 - 650 ms

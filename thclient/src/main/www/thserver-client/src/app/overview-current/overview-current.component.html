@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-header class="myHeader">
+    <mat-card-title class="myTitle">
+      Büelwisen Daten von {{ (heatingEntity.id  !== null) ? (heatingEntity.measurementDate  | date: 'HH:mm') : "..." }}
+    </mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+
+    <div fxLayout.xs="column" fxLayout.gt-xs="row">
+      <div fxFlex.gt-xs="50" class="spacer">
+        <div class="">Boiler Temperatur</div>
+        <div class="mat-display-2 textBig">{{heatingEntity.boilerTemp | number: '1.1-1'}} °C</div>
+      </div>
+
+      <div fxFlex.gt-xs="50" class="">
+        <div class=""> Aussen-Temperatur</div>
+        <div class="mat-display-2 textBig">{{heatingEntity.ireg300TempOutdoor | number: '1.1-1'}} °C</div>
+        <div class="mat-caption">{{meteoSwissEntity.temperature | number: '1.1-1'}} °C : Meteo-Schweiz Kloten</div>
+      </div>
+
+    </div>
+
+  </mat-card-content>
+
+  <mat-card-footer>
+  </mat-card-footer>
+</mat-card>
+
+
+<app-boiler-chart [overviewMode]="true" class="standAlone"></app-boiler-chart>
+<!--<app-overview-current-gauge></app-overview-current-gauge>-->
+

@@ -1,0 +1,36 @@
+Is it a random boot?
+
+UTC TIME
+Jan 13 08:17:02 raspberrypi11 kernel: Booting Linux on physical CPU 0x0
+Jan 13 08:17:02 raspberrypi11 kernel: Linux version 5.10.63-v7+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1488 SMP T>
+Jan 13 08:17:02 raspberrypi11 kernel: CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Jan 13 08:17:02 raspberrypi11 kernel: CPU: div instructions available: patching division code
+Jan 13 08:17:02 raspberrypi11 kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jan 13 08:17:02 raspberrypi11 kernel: OF: fdt: Machine model: Raspberry Pi Zero 2 Rev 1.0
+
+
+Sensor readings (Zurich time):
+2022-01-13 09:30:26.108
+2022-01-13 09:29:26.051
+2022-01-13 09:28:25.991   -- GAP
+2022-01-13 09:20:58.591
+2022-01-13 09:18:40.171
+2022-01-13 09:17:36.016
+2022-01-13 09:16:35.427
+
+
+
+Jan 13 08:17:05 raspberrypi11 kernel: rc rc0: vc4 as /devices/platform/soc/3f902000.hdmi/rc/rc0
+Jan 13 08:17:05 raspberrypi11 kernel: input: vc4 as /devices/platform/soc/3f902000.hdmi/rc/rc0/input2
+Jan 13 08:17:05 raspberrypi11 kernel: vc4_hdmi 3f902000.hdmi: Could not register sound card: -517
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to read reg index 0x0001: -32
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x0001: -32
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x001f: -32
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x0019: -32
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x001f: -32
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x000d: -32
+Jan 13 08:17:05 raspberrypi11 kernel: brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43436-sdio for chip BCM43430/2
+Jan 13 08:17:05 raspberrypi11 kernel: brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43436-sdio for chip BCM43430/2
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x000e: -32
+Jan 13 08:17:05 raspberrypi11 kernel: ax88179_178a 1-1:2.0 (unnamed net_device) (uninitialized): Failed to write reg index 0x000d: -32
+Jan 13 08:17:05 raspberrypi11 kernel: brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/2 wl0: Oct  9 2020 14:44:32 version 9.88.4.65 (test) (f149b32@shgit)  (r679549) FWID 01-f40f3270

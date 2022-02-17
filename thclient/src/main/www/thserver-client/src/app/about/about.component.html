@@ -1,0 +1,108 @@
+<!--<div fxLayout="column" fxLayout.gt-lg="row wrap"  class="gallery">-->
+<!-- see styles for mat-card which have the flex -->
+<div fxLayout="column" class="gallery">
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Raspberry an der Wärmepumpe</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/heatpump_20220110_214319_1980px.jpg" alt="wäremepumpe"/>
+    <mat-card-content>
+      <p>
+        Die Daten werden von einem kleinen Raspberry gesammelt, der direkt an der Wärmepumpe angeschlossen ist
+        (kleine Plastikbox links oberhalb der Wärmepumpe).
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Das Innenleben der Wärmepumpe</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/heatpump_internal_20211221_093611_1980px.jpg"
+         alt="interna der wärmepumpe"/>
+    <mat-card-content>
+      <p>
+        Ein LAN (RJ45) führt direkt zum Mikrokontroller der Heizung.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Das Modbus Protokoll</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/modbus_wikipedia.png" alt="modbus wikipedia page"/>
+    <mat-card-content>
+      <p>
+        Die Kummunikation geschieht über Modbus, ein ziemlich altes Protokoll. Der Raspberry Java server kommuniziert
+        direkt.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Postgres DB</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/postgres_simple_db.png" alt="postgres db"/>
+    <mat-card-content>
+      <p>
+        Die Daten werden periodisch gesammelt. Aktuell wirde jede Minute ein Datenpunkt
+        abgegriffen und in eine Postgres Datenbank geschrieben.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Java-Server als Herzstück</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/spring_boot_start_2.png" alt="spring boot"/>
+    <mat-card-content>
+      <p>
+        Das Software Herzstück ist ein Java-Server basierend auf Spring Boot der alles erledigt. Das UI ist mittels
+        Material Angular implementiert und unterstüzt den PWA (Progressive Web App) Standard.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Die Server-Hardware</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/raspberry_pi_zero_20211228_103021_1980px.jpg" alt="raspi pi zero"/>
+    <mat-card-content>
+      <p>
+        Der Server-Hardware ist ein Raspberry Pi Zero und darum nicht der allerschnellste. Ein Start des Servers
+        inklusive DB kann schon einmal 10 Minuten dauern.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title class="myInfoTitle">Installierbar als App</mat-card-title>
+    </mat-card-header>
+    <div class="video-holder">
+      <video class="video" controls>
+        <source src="assets/videos/Install_PWA_Android.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <mat-card-content>
+      <p>
+        Die Applikation läuft im Browser auf dem Desktop und dem Smartphone. Sie kann einfach als
+        PWA (Progressive-Web-App) installiert werden. Als solche ist sie auf dem Handy (Apple und Android)
+        wie eine normale App bedienbar.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+</div>
+
+<div class="buildTimestamp">client: {{buildTimestampClient}} | server: {{buildTimestampServer}}  </div>
+

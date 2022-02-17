@@ -1,0 +1,58 @@
+.smallFormElement
+  width: 130px
+
+.chartItem
+  margin-right: -15px
+  margin-left: -15px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.chartHint
+  color: rgba(255, 255, 255, 0.7)
+
+.date-selector
+  margin-bottom: 10px
+
+  .mat-form-field
+    margin-left: 5px
+
+  .mat-checkbox
+    margin-left: 5px
+
+.mySlider
+  width: 250px
+
+.myLoading
+  border-color: red
+
+.myLoadingSpinner
+  position: absolute
+  width: 200px
+  height: 200px
+  animation: fadeIn 500ms linear forwards
+  opacity: 0
+  zoom: 0.5
+
+.chartStyle
+  width: 100%
+  height: 450px
+  margin-top: 15px
+
+// ::ng-deep to reference to accept styles from parent components
+// https://michalmuszynski.com/blog/styling-child-component-from-parent-in-angular/
+::ng-deep .standAlone .chartStyle
+  height: 40vh
+
+
+//  keyframe that the first part is not visible... only after some time the spinner should come in
+@keyframes fadeIn
+  0%
+    opacity: 0
+  50%
+    opacity: 0
+  100%
+    opacity: 0.6
+
+
+

@@ -1,0 +1,14 @@
+###############################################################################
+# server properties
+###############################################################################
+thserver:
+  pollingInterval: PT20s
+  heatPumpIP: localhost # using SSH tunnel
+  meteoSwiss:
+    pollingInterval: PT180s
+
+
+server:
+  port: 49088 # for testing against outside
+
+

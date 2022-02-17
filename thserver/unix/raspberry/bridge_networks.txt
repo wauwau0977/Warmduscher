@@ -1,0 +1,38 @@
+
+# kind of the wrong way around...
+https://bertrand.tognoli.fr/howto/network/lan-to-wlan.php
+
+
+Enable IP forwarding:
+    vi  /etc/sysctl.conf
+        net.ipv4.ip_forward=1
+
+    restart service:
+        sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+
+NAT routing:
+    Install:
+        apt-get install iptables
+
+    Config bridge:
+        iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+        iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+        iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
+
+        iptables -A FORWARD -i wlan0 -j ACCEPT
+        iptables -A FORWARD -o wlan0 -j ACCEPT
+        iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+
+Add a static route to windows:
+        # Add a route to the WIFI address of the raspberry, which then forwards to Ethernet
+        route add 169.254.0.0 mask 255.255.0.0 <WIFI-address-of-raspberry-gateway>
+
+        in home network:
+        route add 169.254.0.0 mask 255.255.0.0 192.168.1.231
+
+        in VPN:
+        use SSH and tunnel to the target and expose locally
+
+check if ping is possible:
+        ping 169.254.92.80

@@ -1,0 +1,54 @@
+Install:
+    as root:
+     apt-get install postgresql postgresql-client
+
+Setup DB / User:
+    sudo -u postgres bash
+    psql
+        create database thserverdb;
+        create user thserveruser with encrypted password 'thserveruser';
+        grant all privileges on database thserverdb to thserveruser;
+
+Commands:
+    Show databases: \l
+    select a DB:  \c thserverdb
+    show tables: \d
+
+Restart Postgres Server:
+    systemctl restart  postgresql.service
+
+Limit resources:
+    login as postgres user go to psql:
+
+    # check settings first
+    SHOW max_connections;
+    SHOW shared_buffers;
+
+    # limit the number of connections (Server processes), normally, did see up to 15 in normal operaiton, 23 postgres processes in total)
+    # first select the right DB
+    \c thserverdb
+    alter system set max_connections=15;
+    alter system set shared_buffers='96MB';
+
+    # changes do get written into file cat /var/lib/postgresql/<PG_VERSION>/main/postgresql.auto.conf
+    # seems to require a restart, then they get active
+
+Create View:
+    drop view session_request_v;
+CREATE OR REPLACE VIEW public.session_request_v
+AS SELECT sr.id,
+    sr.session_id,
+    sr.request_date,
+    sr.path,
+    sr.http_status AS st,
+    sr.processing_time AS dt,
+    sr.ip,
+    sr.exception AS ex,
+    sr.client_id,
+    sr.client_version,
+    TO_NUMBER( ( substring( sr.client_version, 2, 2) || substring(sr.client_version , 5, 8) || substring(sr.client_version, 14, 7) ) , 'FM99999999999999999') as client_version_number,
+    sd.agent_string,
+    sd.ip AS ip_sd
+   FROM session_request sr
+     LEFT JOIN session_device sd ON sr.session_id::text = sd.session_id::text
+  ORDER BY sr.request_date DESC;

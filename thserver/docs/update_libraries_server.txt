@@ -1,0 +1,3 @@
+Check for new java libs using maven:
+    Just execute in maven:
+    mvn versions:display-dependency-updates

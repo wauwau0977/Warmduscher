@@ -1,0 +1,66 @@
+###############################################################################
+# Server properties
+###############################################################################
+thserver:
+  pollingInterval: PT60s
+  heatPumpIP: 169.254.92.80
+  buildTimestampServer: "@serverBuildTimeStamp@"
+  buildVersionServer: "v.1.0.0"
+  mail:
+    sender: # gmail address, e.g. joe@gmail.com
+    password: # the password of the account. Need to activate  'less secure apps' in google accounts.
+    receivers: # comma separated list of email receiver
+  meteoSwiss:
+    stationIds: KLO,SHA,HLL,PSI,LAE
+    pollingInterval: PT900s
+    urlSunshine: https://data.geo.admin.ch/ch.meteoschweiz.messwerte-sonnenscheindauer-10min/ch.meteoschweiz.messwerte-sonnenscheindauer-10min_de.json
+    urlTemperature: https://data.geo.admin.ch/ch.meteoschweiz.messwerte-lufttemperatur-10min/ch.meteoschweiz.messwerte-lufttemperatur-10min_de.json
+    urlWindGust: https://data.geo.admin.ch/ch.meteoschweiz.messwerte-wind-boeenspitze-kmh-10min/ch.meteoschweiz.messwerte-wind-boeenspitze-kmh-10min_de.json
+
+
+###############################################################################
+# Spring Boot properties
+###############################################################################
+server:
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 1024
+  http2:
+    enabled: true
+  servlet:
+    context-path: /pi11
+
+spring:
+  mvc:
+    format:
+      date-time: yyyy-MM-dd'T'HH:mm:ss.SSSXXX
+      date: yyyy-MM-dd'T'HH:mm:ss.SSSXXX # important setting to control the parsing of incoming dates in web services
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+
+  web:
+    resources:
+      static-locations: classpath:/static/
+
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true # prevent bug SQLFeatureNotSupportedException: Method org.postgresql.jdbc.PgConnection.createClob() is not yet implemented
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    password: thserveruser
+    url: jdbc:postgresql://localhost:5432/thserverdb
+    username: thserveruser
+    tomcat:
+      max-active: 4     # not sure if this has an effect... may be go to hikari
+      initial-size: 2
+    hikari:
+      maximum-pool-size: 4

@@ -1,0 +1,110 @@
+Share on NAS
+
+# prepare
+apt install nfs-common
+mkdir /diskstation
+chmod -R 777 /diskstation
+# use automount: mount -t nfs diskstation:/volume1/raspberry /diskstation
+edit file: /etc/fstab add
+    diskstation.local:/volume1/raspberry  /diskstation      nfs     auto,noatime       0       0
+    192.168.1.6:/volume1/raspberry  /diskstation      nfs     auto,noatime       0       0
+mount -a  # to reload mounts
+
+
+Nas NFS Mount: volume1/raspberry
+User: raspberry / Raspi2019..!
+
+
+crontab as postgres user!
+01 00 */5 * *   /var/lib/postgresql/backup_db.sh
+
+
+
+RESTORE
+=======
+1) Take the gz backup and unzip
+2) get postgres user
+3)  psql -U thserveruser -d thserverdb -h 127.0.0.1  -f <backupfile.sql>
+
+
+=====================================================================================================
+DB-Links
+=====================================================================================================
+To connect to another Postgres DB use:
+https://www.postgresql.org/docs/14/postgres-fdw.html
+https://www.percona.com/blog/2018/08/21/foreign-data-wrappers-postgresql-postgres_fdw/
+
+Steps:
+    - use psql
+
+    - select DB
+        \c thserverdb
+
+    - create extension
+        CREATE extension postgres_fdw;
+
+    - create a server:
+        CREATE SERVER raspi12 FOREIGN DATA WRAPPER postgres_fdw OPTIONS (host '192.168.1.231', dbname 'thserverdb', port '5432');
+
+    - create user mapping
+        CREATE USER MAPPING FOR thserveruser SERVER raspi12 OPTIONS (user 'thserveruser', password 'thserveruser');
+
+    - create the foreign table
+        (TIP: rather import the full schema, instead of single tables, it's easier)
+        CREATE FOREIGN TABLE session_request_12 (
+            id varchar(255) NOT NULL,
+                "path" varchar(255) NULL,
+                request_date timestamp NULL,
+                session_id varchar(255) NULL,
+                client_id varchar(255) NULL,
+                client_version varchar(255) NULL,
+                "exception" varchar(255) NULL,
+                http_status varchar(255) NULL,
+                ip varchar(255) NULL,
+                processing_time int8 NULL
+                )
+                SERVER raspi12 OPTIONS (schema_name 'public', table_name 'session_request');
+
+        CREATE FOREIGN TABLE session_device_12 (
+        	session_id varchar(255) NOT NULL,
+        	agent_string varchar(255) NULL,
+        	ip varchar(255) NULL,
+        	session_create_date timestamp NULL,
+        	client_id varchar(255) NULL
+        ) SERVER raspi12 OPTIONS (schema_name 'public', table_name 'session_device');
+
+    - grant access to thuser
+        GRANT ALL PRIVILEGES ON session_request_12 TO thserveruser;
+        GRANT ALL PRIVILEGES ON session_device_12 TO thserveruser;
+
+    - load full schema (not working)
+        CREATE SCHEMA public_pi12;
+        GRANT USAGE ON SCHEMA public_pi12 TO thserveruser;
+        ALTER SCHEMA public_pi12 owner to thserveruser;
+        IMPORT FOREIGN SCHEMA "public" FROM SERVER raspi12 INTO public_pi12;
+
+
+    - open firewall (needs firewall, may be no liking)
+        - sudo apt-get install ufw
+        - sudo ufw allow 5432
+        - sudo ufw allow ssh
+        - sudo ufw allow 8080
+        - sudo ufw enable
+        - sudo ufw status
+
+    - let postgres listen to remote hosts:
+        vi /etc/postgresql/13/main/postgresql.conf
+        set:
+        listen_addresses = '*'
+
+    - adapt conf file, otherwise it's still blocked
+         vi /etc/postgresql/13/main/pg_hba.conf
+         add:
+            host    all             all              0.0.0.0/0                       md5
+            host    all             all              ::/0                            md5
+
+    - query the table:
+        select * from session_request_12;
+
+    - undo firewall:
+        sudo ufw deny 5432

@@ -1,0 +1,16 @@
+Use profiles
+    Careful, they need to be comma separated in IntelliJ
+    Start with profiles: dev,sensormock,h2
+
+
+Start POSTGRES in docker locally:
+    docker run --name thserverdb  -e POSTGRES_DB=thserverdb -e POSTGRES_PASSWORD=thserveruser -e POSTGRES_USER=thserveruser -p 5432:5432 -d postgres
+
+
+connect to h2 db:
+    http://localhost:8080/h2-console
+    JDBC    _URL: jdbc:h2:file:~/rasperry_sensor_db
+
+
+Start on console:
+    java -Dspring.profiles.active=sensormock,h2 -jar thserver-0.0.1-SNAPSHOT.jar

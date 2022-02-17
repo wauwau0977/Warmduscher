@@ -1,0 +1,26 @@
+https://github.com/raspberrypi/linux/issues/3849
+
+For me with the same image:
+- Rasperry Pi Zero v1: stable if running with Wifi and USB Ethernet card
+- Raspebrry Pi Zero v2: stable if running with Wifi Only
+- Rasperry Pi Zero v2: un stable if running with Wifi and USB Ethernet card
+
+
+Error level 3:
+brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43436-sdio for chip BCM43430/2
+
+=> https://github.com/openwrt/cypress-nvram (seems to have later driver)
+
+
+
+
+Over-voltage:
+    1) check voltage:
+        vcgencmd measure_volts
+
+        pi@raspberrypi11:~ $  vcgencmd measure_volts
+        before: volt=1.2125V
+        after:  volt=1.2625V
+
+    2) set: go to  /boot/config.txt
+        add: over_voltage=2

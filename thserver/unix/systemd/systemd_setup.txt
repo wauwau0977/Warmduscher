@@ -1,0 +1,30 @@
+
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
+
+
+put file in /lib/systemd/system/temperature_humidity.service
+sudo chmod 644 /lib/systemd/system/temperature_humidity.service
+
+sudo systemctl daemon-reload
+sudo systemctl enable temperature_humidity.service
+
+# limit RAM, create a "conf file"
+    add a file with same name as the service ending conf
+        vi /home/pi/temperature/thserver-0.0.1-SNAPSHOT.conf
+    paste content:
+        JAVA_OPTS="-Xms85m -Xmx85m"
+    check if taken, by calling ThServer Rest and compare totalMemoryKb: {{BASE_URL}}/pi11/info/memory
+
+try out and run:
+    sudo systemctl start temperature_humidity.service
+
+restart:
+    sudo systemctl restart temperature_humidity.service
+
+find errors:
+    systemctl status temperature_humidity.service
+
+show a list of all services:
+    systemctl
+

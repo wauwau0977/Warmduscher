@@ -1,0 +1,11 @@
+For reactive layout:
+    https://github.com/angular/flex-layout
+    https://tburleson-layouts-demos.firebaseapp.com/#/docs
+
+How parent can style child component:
+    that's an issue, as components are isolated
+    https://michalmuszynski.com/blog/styling-child-component-from-parent-in-angular/
+
+Update client libraries:
+    Run the check update npm tool: https://www.npmjs.com/package/npm-check-updates
+        ncu

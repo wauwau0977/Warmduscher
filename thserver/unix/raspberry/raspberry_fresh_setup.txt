@@ -1,0 +1,103 @@
+===============================================================================
+Setup of a fresh Raspberry
+===============================================================================
+
+- Create Image with Raspberry Pi Imager tool
+    - copy "wpa_supplicant.conf" and empty "ssh" file into root of SD card. (see boot subfolder)
+    - restart. find IP from router. Login with pi/raspberry
+
+- Change password
+    passwd
+
+- full upgrade
+    apt update
+    apt full-upgrade
+
+- Install "sar" and enable it (=> never really worked on new installations, yet, worked on old)
+    apt-get install sysstat
+    vi /etc/default/sysstat  (set ENABLED="true")
+    systemctl enable sysstat  # should enable it after restart
+    systemctl restart sysstat.service
+    systemctl enable  sysstat sysstat-collect.timer sysstat-summary.timer
+    systemctl start  sysstat sysstat-collect.timer sysstat-summary.timer
+
+    check:
+    systemctl status sysstat.service
+
+- change hostname (required in 2 files)
+    vi /etc/hostname  (just put the name: e.g. raspberrypi11)
+    vi /etc/hosts  # register the name from above
+
+- keep boot logs (persistent)
+    vi /etc/systemd/journald.conf  and change: Storage=persistent
+    infos:
+        journalctl --list-boots # diplay boot infos
+        journalctl -b -1  # display previous boot
+        journalctl -p 3..1 # display priority 1-3 only (1 most severe)
+        dmesg  # debian way to see boot logs (may be journal more standard?)
+
+- setup postgres
+    see separate file postgres.txt
+
+- register 'll' alias
+    add to file: /etc/bash.bashrc
+        alias ll='ls -alFh'
+
+- mount NFS
+    edit file: /etc/fstab add line below
+        (the x-systemd.automount seems to be important on newer versions, otherwise it won't automount)
+        https://learn.redhat.com/t5/Platform-Linux/Automounting-using-systemd/td-p/5631
+        https://wiki.manjaro.org/index.php/Fstab_-_Use_SystemD_automount
+        => line as below:
+        192.168.1.6:/volume1/raspberry  /diskstation      nfs     auto,noatime,x-systemd.automount       0       0
+
+    mount -a  # to reload mounts (attention, if automount does not work, this will be lost on reboot)
+
+- setup java
+       see java.txt in "unix"
+
+- disable IP v6 (issues with wifi drop?)
+    - vi /etc/sysctl.conf
+    - Add this to the end:
+        net.ipv6.conf.all.disable_ipv6=1
+        net.ipv6.conf.default.disable_ipv6=1
+        net.ipv6.conf.lo.disable_ipv6=1
+        net.ipv6.conf.eth0.disable_ipv6 = 1
+
+- enable firewall (optional, not tried yet)
+    - sudo apt-get install ufw
+    - # sudo ufw allow 5432
+    - sudo ufw allow ssh
+    - sudo ufw allow 8080
+    - sudo ufw enable
+    - sudo ufw status
+
+- disable X.org (graphical UI) to reduce memory
+    # check what current run target is:
+        systemctl get-default
+    # disable, set multi-user console
+        sudo systemctl set-default multi-user.target
+
+
+- Reference memory use:
+    System after reboot and complete java restart uses: 0.22 GB RAM of 0.42 available
+
+      507 pi        20   0  237240 153832  11392 S   0.3  35.1   1:58.88 java
+      574 postgres  20   0  207656  22564  21332 S   0.3   5.2   0:00.20 postgres
+      127 root      20   0   53860  17476  16752 S   0.0   4.0   0:01.22 systemd-journal
+      988 postgres  20   0  210232  17116  13808 S   0.0   3.9   0:00.26 postgres
+     1017 postgres  20   0  208580  12248  10376 S   0.0   2.8   0:00.05 postgres
+     1028 postgres  20   0  208580  12248  10376 S   0.0   2.8   0:00.05 postgres
+     1039 postgres  20   0  208580  12248  10380 S   0.0   2.8   0:00.06 postgres
+     1048 postgres  20   0  208580  12248  10376 S   0.0   2.8   0:00.06 postgres
+     1049 postgres  20   0  208580  12248  10376 S   0.0   2.8   0:00.05 postgres
+     1027 postgres  20   0  208580  12244  10380 S   0.0   2.8   0:00.06 postgres
+     1038 postgres  20   0  208580  12244  10376 S   0.0   2.8   0:00.06 postgres
+     1037 postgres  20   0  208580  12240  10376 S   0.0   2.8   0:00.05 postgres
+      556 root      20   0   45224  11772   8288 S   0.0   2.7   0:01.82 cups-browsed
+     1026 postgres  20   0  208580  11616   9752 S   0.0   2.7   0:00.06 postgres
+      763 colord    20   0   49920  11160   8080 S   0.0   2.5   0:00.90 colord
+        1 root      20   0   32916   8672   6780 S   0.0   2.0   0:05.17 systemd
+      579 postgres  20   0  207656   8412   7164 S   0.0   1.9   0:00.05 postgres
+      640 root      20   0   21160   8068   7256 S   0.0   1.8   0:00.13 bluetoothd
+      599 pi        20   0   14356   7488   6560 S   0.0   1.7   0:00.56 systemd

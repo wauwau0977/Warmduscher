@@ -1,0 +1,68 @@
+===============================================================================
+General
+===============================================================================
+# show low level messages (interesting)
+dmesg
+
+# show details about GPIO
+gpio readall
+
+# display kernel version
+uname -a
+
+# dedicated kernel version install:
+https://www.raspberrypi.org/forums/viewtopic.php?t=242477
+sudo apt-get install rpi-update
+rpi-update 8c32f3efe18f872f2acb1a2d6cd80ef75d32f4a6
+reboot
+
+# go back to latest stable kernel
+https://www.raspberrypi.org/documentation/linux/kernel/updating.md
+sudo apt update
+sudo apt install --reinstall raspberrypi-bootloader raspberrypi-kernel
+
+
+===============================================================================
+Update / Upgrade
+===============================================================================
+apt-get update && apt-get upgrade &&  apt-get dist-upgrade
+
+
+===============================================================================
+Wiring
+===============================================================================
+Overall: https://pi4j.com/1.2/pins/model-zerow-rev1.html
+
+# really useful command :-)
+gpio readall
+
+Connect 4 cables
+http://www.pibits.net/code/raspberry-pi-si7021-sensorEntity-example.php
+VIN not connected... 3.3V input is good enough
+
+TODO: Check if I need pullop resistors: https://raspberrypi.stackexchange.com/questions/67471/how-to-add-i%C2%B2c-buses-to-raspberry
+https://raspberrypi.stackexchange.com/questions/88149/change-i2c-pins-on-raspberry-pi
+
+
+===============================================================================
+Enable additional I2C bus
+===============================================================================
+https://www.instructables.com/id/Raspberry-PI-Multiple-I2c-Devices/
+https://github.com/JJSlabbert/Raspberry_PI_i2C_conficts
+
+Firmware documentation:
+https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README
+
+in /boot/config.txt add in section 'hardware interfaces'
+lowest bus number must be 3... if you add new buses, keep adding them starting with 3 (3,4,5)
+# TODO: Check, this may be the BROADCOM numbering... see  command 'gpio readall'
+# This seems to be confirmed! 23/24 BCM are very practival and close to 3.3 and GND
+    dtoverlay=i2c-gpio,bus=4,i2c_gpio_delay_us=2,i2c_gpio_sda=17,i2c_gpio_scl=27
+    dtoverlay=i2c-gpio,bus=3,i2c_gpio_delay_us=2,i2c_gpio_sda=23,i2c_gpio_scl=24
+
+reboot
+
+check:
+    sudo i2cdetect -l
+    sudo i2cdetect -y 3
+
