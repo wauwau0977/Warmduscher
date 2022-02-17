@@ -39,12 +39,8 @@
 Eine <b>Demo</b> der App gibt es live hier <b> [https://mindalyze.com/pi11](https://mindalyze.com/pi11) </b> 
 
 #### Demo Video
-[![Video](thserver/docs/github/media/demo_web_client_1.mp4)](thserver/docs/github/media/demo_web_client_1.mp4) 
+https://user-images.githubusercontent.com/6230096/154520493-6d321ba8-47d9-4cea-9c2b-32f8d8aef16d.mp4
 
-<video width="320" height="240" controls>
-  <source src="./thserver/docs/github/media/demo_web_client_1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ### Getting Started
   Bitte Nachfragen.  
