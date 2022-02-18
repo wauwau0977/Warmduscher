@@ -2,13 +2,13 @@
 <h1 align="center">Maker Projekt: Warmduscher-App mit dem Raspberry Pi</h1>
 
 <p align="center">
-  <img src="thserver/docs/github/media/app-icon-1024x1024.png" alt="angular-logo" width="120px" height="120px"/>
+  <img src="thserver/docs/github/media/app-icon-1024x1024.png" alt="angular-logo" width="150px" height="150px"/>
   <br>
   <i>Ein kleines DYI-Maker Projekt, basierend auf dem Raspberri Pi, das die Daten der Erd-Sonde Wärmepumpe ausliest und in einer App zur Verfügung stellt. </i> <p align="center">
   <br>
 </p>
 
-### Was 
+### Was?
 #### Technischer Aufbau
 - Wir haben eine Erdsonden basierte Wärmepumpe von [Heim AG](https://www.heim-ag.ch/).
 - Die Wärme-Pumpe wird durch einen Mikrokontroller von [Carel](https://www.carel.com/programmable-controls) betrieben. 
@@ -39,15 +39,15 @@
 Eine <b>Demo</b> der App gibt es live hier <b> [https://mindalyze.com/pi11](https://mindalyze.com/pi11) </b> 
 
 #### Demo Video
-[![Video](thserver/docs/github/media/demo_web_client_1.mp4)](thserver/docs/github/media/demo_web_client_1.mp4) 
-
-<video width="320" height="240" controls>
-  <source src="./thserver/docs/github/media/demo_web_client_1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/6230096/154520493-6d321ba8-47d9-4cea-9c2b-32f8d8aef16d.mp4
+<!-- to add the video, one need to go to the online editor in github, and just drag-and-drop the file into the edit window-->
 
 ### Getting Started
-  Bitte Nachfragen.  
+Bitte ein [Ticket erstellen](https://github.com/wauwau0977/Warmduscher/issues). Ich bin gerne bereit zu helfen,
+aber ich fange erst damit an, wenn wirklich Interesse besteht.
+<br>
+Ich denke, die einfachste Möglichkeit das Tool einzusetzen
+wäre ein fertiges Raspberry Image. Dieses könnte man um die IP Addresse der Heizung anpassen und dann direkt loslegen. 
 
 ### Haftungsausschluss und Lizenz
 Die Heizungs-App ist als Open-Source verfügbar: <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br>
