@@ -1,6 +1,6 @@
 import {Component, HostListener, Input, OnInit} from '@angular/core';
 import {HeatingDataService} from "../heating-data.service";
-import {HeatingEntity} from "../heatingEntity";
+import {HeatingEntity} from "../entities/heatingEntity";
 import {forkJoin, interval} from "rxjs";
 import * as moment from "moment";
 import {Moment} from "moment";
@@ -12,10 +12,11 @@ import {FormBuilder, Validators} from '@angular/forms';
 import more from 'highcharts/highcharts-more';
 import {Interval, UtilsServiceService} from "../utils-service.service";
 import {MatSnackBar} from "@angular/material/snack-bar";
-import {MeteoSwissEntity} from "../meteoSwissEntity";
-import {BoilerStatsByHourEntity} from "../boilerStatsByHourEntity";
-import {BoilerStatsDayOfWeekEntity} from "../boilerStatsDayOfWeekEntity";
+import {MeteoSwissEntity} from "../entities/meteoSwissEntity";
+import {BoilerStatsByHourEntity} from "../entities/boilerStatsByHourEntity";
+import {BoilerStatsDayOfWeekEntity} from "../entities/boilerStatsDayOfWeekEntity";
 import {Router} from "@angular/router";
+import {SoleInOutDeltaInOperationStatEntity} from "../entities/soleInOutDeltaInOperationStatEntity";
 
 
 more(Highcharts);
@@ -45,6 +46,7 @@ export class BoilerChartComponent implements OnInit {
   chartUpdateFlag: boolean = false;
   chartUpdateFlagBoilerStatsByHour: boolean = false;
   chartUpdateFlagBoilerStatsByDayOfWeek: boolean = false;
+  chartUpdateFlagSoleDeltaTempInOperation: boolean = false;
 
   boilerTempAverage: any = [];
   boilerTempMinMax: any = [];
@@ -61,6 +63,8 @@ export class BoilerChartComponent implements OnInit {
   soleOutTempMinMax: any = [];
 
   soleTempDelta: any = [];
+  soleTempDeltaInOperationAvg: any = [];
+  soleTempDeltaInOperationMinMax: any = [];
 
   heatingInTempMinMax: any = [];
   heatingOutTempMinMax: any = [];
@@ -84,6 +88,7 @@ export class BoilerChartComponent implements OnInit {
   loading: boolean = false;
   loadingBoilerByHour: boolean = false;
   loadingBoilerByDayOfWeek: boolean = false;
+  loadingSoleDeltaTempInOperation: boolean = false;
 
   // based on the chart maxPoints automatically select an appropriate interval
   autoSelectedInterval: Interval = UtilsServiceService.getStandardIntervals()[0];
@@ -215,6 +220,7 @@ export class BoilerChartComponent implements OnInit {
     let serviceHeatingDataHistorical = this.heatingDataService.getHistorical(true, this.getFromDate(), this.getToDate(), maxRows, groupEveryNthSecond);
     let serviceBoilerStatsByHour = this.heatingDataService.getBoilerStatsByHour(true, this.getFromDate(), this.getToDate());
     let serviceBoilerStatsDayOfWeek = this.heatingDataService.getBoilerStatsByDayOfWeek(true, this.getFromDate(), this.getToDate());
+    let serviceSoleDeltaInOperationStats = this.heatingDataService.getSoleDeltaInOperationStats(true, this.getFromDate(), this.getToDate(), maxRows, groupEveryNthSecond);
 
 
     forkJoin([serviceHeatingDataHistorical, serviceMeteoHistorical]).subscribe({
@@ -231,6 +237,8 @@ export class BoilerChartComponent implements OnInit {
         this.boilerStatsByHour.length = 0;
         this.soleInTempMinMax.length = 0;
         this.soleOutTempMinMax.length = 0;
+        this.soleTempDeltaInOperationAvg.length = 0;
+        this.soleTempDeltaInOperationMinMax.length = 0;
         this.soleTempDelta.length = 0;
         this.heatingInTempMinMax.length = 0;
         this.heatingOutTempMinMax.length = 0;
@@ -492,6 +500,26 @@ export class BoilerChartComponent implements OnInit {
       }
     });
 
+    serviceSoleDeltaInOperationStats.subscribe({
+      next: (soleDeltaInOperationStatsResults: any) => {
+
+        soleDeltaInOperationStatsResults.forEach(soleDeltaInOperationStatsResult => {
+          let soleDeltaInOpsEntity = SoleInOutDeltaInOperationStatEntity.ofWebService(soleDeltaInOperationStatsResult);
+          this.soleTempDeltaInOperationMinMax.push([soleDeltaInOpsEntity.measurementDateStart.getTime(), soleDeltaInOpsEntity.soleInOutDeltaInOperationMin, soleDeltaInOpsEntity.soleInOutDeltaInOperationMax]);
+          this.soleTempDeltaInOperationAvg.push([soleDeltaInOpsEntity.measurementDateStart.getTime(), soleDeltaInOpsEntity.soleInOutDeltaInOperationAvg]);
+        });
+
+        console.log("soleDeltaInOperationStats Chart reloaded with data. data-points: " + soleDeltaInOperationStatsResults.length);
+        this.chartUpdateFlagSoleDeltaTempInOperation = true;
+      },
+      error: (e) => {
+        console.log("error while loading data for chart", e);
+        this.loadingSoleDeltaTempInOperation = false;
+      },
+      complete: () => {
+        this.loadingSoleDeltaTempInOperation = false;
+      }
+    });
   }
 
 
@@ -845,19 +873,18 @@ export class BoilerChartComponent implements OnInit {
       marker: {
         enabled: false
       }
-    },
-      {
-        name: 'Sole Austritt',
-        data: this.soleOutTempMinMax,
-        type: 'arearange',
-        lineWidth: 2,
-        color: '#be3c25',
-        fillOpacity: 0.5,
-        zIndex: 1,
-        marker: {
-          enabled: false
-        }
+    }, {
+      name: 'Sole Austritt',
+      data: this.soleOutTempMinMax,
+      type: 'arearange',
+      lineWidth: 2,
+      color: '#be3c25',
+      fillOpacity: 0.5,
+      zIndex: 1,
+      marker: {
+        enabled: false
       }
+    }
 
     ],
     lang: {
@@ -972,6 +999,80 @@ export class BoilerChartComponent implements OnInit {
   }
 
   /************************************************************************************************
+   * CHART: SoleTemp-Delta-In-Operation between MinMaxIn and MinMaxOut Area
+   ************************************************************************************************/
+  chartOptionsSoleDeltaTempInOperation: Highcharts.Options = {
+    series: [{
+      name: 'Mittlerer Temp-Unterschied nach 3 min',
+      data: this.soleTempDeltaInOperationAvg,
+      zIndex: 1, // on top of area
+      type: 'line',
+      lineWidth: 3,
+      color: '#be3c25',
+      marker: {
+        enabled: false
+      }
+    }, {
+      name: 'Bereich (Min/Max)',
+      data: this.soleTempDeltaInOperationMinMax,
+      type: 'arearange',
+      lineWidth: 0,
+      linkedTo: ':previous',
+      color: '#c7c7c7',
+      fillOpacity: 0.25,
+      zIndex: 0,
+      marker: {
+        enabled: false
+      }
+    }],
+    lang: {
+      noData: '',
+      loading: ''
+    },
+    time: {
+      // super important setting! otherwise it's all UTC
+      timezoneOffset: new Date().getTimezoneOffset()
+    },
+    credits: {
+      enabled: false
+    },
+    xAxis: {
+      type: 'datetime',
+    },
+    yAxis: {
+      title: {
+        text: ''
+      },
+      min: null, // auto: seems not to work on area charts, calc it manually
+      max: null,
+      //tickInterval: 5,
+    },
+    tooltip: {
+      //crosshairs: true,
+      shared: true,
+      valueDecimals: 2,
+      valueSuffix: '°C',
+      xDateFormat: '%A, %d.%m.%Y %H:%M',
+      outside: true, // make sure the tooltip comes on top of labels
+    },
+    title: {
+      text: ''
+    },
+    legend: {
+      enabled: false
+    },
+    chart: {
+      // spacingLeft: 5,
+      // spacingRight: 2,
+      backgroundColor: '#424242',
+      animation: false,
+      style: {
+        fontFamily: 'Roboto'
+      }
+    }
+  }
+
+  /************************************************************************************************
    * CHART: Heating Temp Area
    ************************************************************************************************/
   chartOptionsHeatingTemp: Highcharts.Options = {
@@ -1044,7 +1145,7 @@ export class BoilerChartComponent implements OnInit {
   }
 
   /************************************************************************************************
-   * CHART: SoleTemp-Delta between MinMaxIn and MinMaxOut Area
+   * CHART: Heating area between MinMaxIn and MinMaxOut Area
    ************************************************************************************************/
   chartOptionsHeatingDeltaTemp: Highcharts.Options = {
     series: [{

@@ -194,12 +194,38 @@
 
   <mat-card>
     <mat-card-subtitle>Sole Temperatur-Unterschied zwischen Eintritt/Austritt (°C)</mat-card-subtitle>
+    <div class="chartHint mat-caption">
+      Hinweis: Bitte auch nächstes Diagram beachten.
+    </div>
     <mat-card-content>
       <div class="chartItem">
         <highcharts-chart
           [Highcharts]="highcharts"
           [options]="chartOptionsSoleDeltaTemp"
           [(update)]="chartUpdateFlag"
+          [class.myLoading]="loading"
+          class="chartStyle">
+        </highcharts-chart>
+        <mat-spinner
+          *ngIf="loading"
+          color="accent"
+          class="myLoadingSpinner"></mat-spinner>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-subtitle>Sole Temperatur-Unterschied zwischen Eintritt/Austritt bei Betrieb(°C)</mat-card-subtitle>
+    <mat-card-content>
+      <div class="chartHint mat-caption">
+        Dieser Chart zeigt den Sole Temperatur-Unterschied ausschliesslich nachdem der Kompressor mindestens drei Minuten läuft.
+        Damit erhält man die reine Sicht auf die Sole und eliminiert das Rauschen bei Nichtbetrieb (Angleich an Umgebungstemperatur).
+      </div>
+      <div class="chartItem">
+        <highcharts-chart
+          [Highcharts]="highcharts"
+          [options]="chartOptionsSoleDeltaTempInOperation"
+          [(update)]="chartUpdateFlagSoleDeltaTempInOperation"
           [class.myLoading]="loading"
           class="chartStyle">
         </highcharts-chart>

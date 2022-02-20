@@ -5,6 +5,7 @@ import com.x8ing.thsensor.thserver.db.entity.HeatPumpEntity;
 import com.x8ing.thsensor.thserver.db.entity.HeatPumpStatisticsEntity;
 import com.x8ing.thsensor.thserver.db.entity.analytics.BoilerStatsByDayOfWeek;
 import com.x8ing.thsensor.thserver.db.entity.analytics.BoilerStatsByHour;
+import com.x8ing.thsensor.thserver.db.entity.analytics.SoleInOutDeltaInOperationStats;
 import com.x8ing.thsensor.thserver.device.service.HeatingDataReadService;
 import com.x8ing.thsensor.thserver.utils.ThException;
 import org.springframework.stereotype.Controller;
@@ -22,7 +23,7 @@ public class HeatPumpDataService {
     private final HeatPumpRepository heatPumpRepository;
     private final HeatingDataReadService heatingDataReadService;
 
-    public HeatPumpDataService(HeatPumpRepository heatPumpRepository,  HeatingDataReadService heatingDataReadService) {
+    public HeatPumpDataService(HeatPumpRepository heatPumpRepository, HeatingDataReadService heatingDataReadService) {
         this.heatPumpRepository = heatPumpRepository;
         this.heatingDataReadService = heatingDataReadService;
     }
@@ -93,11 +94,23 @@ public class HeatPumpDataService {
         return heatPumpRepository.getBoilerStatsByDayOfWeek(start, end);
     }
 
+    @RequestMapping("/getSoleDeltaInOperationStats")
+    @ResponseBody
+    public List<SoleInOutDeltaInOperationStats> getSoleDeltaInOperationStats(
+            @RequestParam(name = "start") Date start,
+            @RequestParam(name = "end") Date end,
+            @RequestParam(name = "maxRows", required = false, defaultValue = "-1") int maxRows,
+            @RequestParam(name = "groupEveryNthSecond", required = false, defaultValue = "-1") int groupEveryNthSecond
+    ) throws Exception {
+        return heatPumpRepository.getSoleDeltaInOperationStats(start, end, maxRows, groupEveryNthSecond);
+    }
+
     @RequestMapping("/scanRegisters")
     @ResponseBody
     public List<String> scanRegisters(
             @RequestParam(name = "maxRegister", defaultValue = "510", required = false) int maxRegister) {
         return heatingDataReadService.scanAllRegisters(maxRegister);
     }
+
 
 }

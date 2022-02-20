@@ -1,7 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {HeatingDataService} from "../heating-data.service";
 import {interval} from 'rxjs';
-import {HeatingEntity} from "../heatingEntity";
+import {HeatingEntity} from "../entities/heatingEntity";
 import * as Highcharts from "highcharts";
 
 import highchartsMore from "highcharts/highcharts-more.js"

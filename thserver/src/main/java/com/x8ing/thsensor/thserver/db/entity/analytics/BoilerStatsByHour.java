@@ -2,7 +2,7 @@ package com.x8ing.thsensor.thserver.db.entity.analytics;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-@JsonPropertyOrder({"hourOfTheDay", "sumBoilerDiff", "maxBoilerTemp", "minBoilerTemp", "avgBoilerTemp", "numOfStatisticRecords1"})
+@JsonPropertyOrder({"hourOfTheDay", "sumBoilerDiffDecrease", "sumBoilerDiffIncrease", "numOfStatisticRecords1"})
 public interface BoilerStatsByHour {
 
     Integer getHourOfTheDay();

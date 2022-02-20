@@ -4,10 +4,10 @@
 
 export const environment = {
   production: false,
-  serviceBaseURL: "http://localhost:49088/pi11",
-  //serviceBaseURL: "https://www.mindalyze.com/pi11/",
+  //serviceBaseURL: "http://localhost:49088/pi11",
+  serviceBaseURL: "https://www.mindalyze.com/pi11/",
   fullPageRefreshInSeconds: 10 * 60 * 5,
-  "buildTimestampClient": "v01-20220217-111246"
+  "buildTimestampClient": "v01-20220220-093352"
 };
 
 /*

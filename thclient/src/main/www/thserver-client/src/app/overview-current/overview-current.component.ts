@@ -1,8 +1,8 @@
 import {Component, EventEmitter, HostListener, OnInit, Output} from '@angular/core';
 import {HeatingDataService} from "../heating-data.service";
 import {interval} from 'rxjs';
-import {HeatingEntity} from "../heatingEntity";
-import {MeteoSwissEntity} from "../meteoSwissEntity";
+import {HeatingEntity} from "../entities/heatingEntity";
+import {MeteoSwissEntity} from "../entities/meteoSwissEntity";
 import * as moment from "moment";
 
 // import * as Highcharts from "highcharts";

@@ -24,10 +24,10 @@ Limit resources:
     SHOW max_connections;
     SHOW shared_buffers;
 
-    # limit the number of connections (Server processes), normally, did see up to 15 in normal operaiton, 23 postgres processes in total)
+    # limit the number of connections (Server processes), normally, did see up to 15 in normal operation, 23 postgres processes in total)
     # first select the right DB
     \c thserverdb
-    alter system set max_connections=15;
+    alter system set max_connections=16;
     alter system set shared_buffers='96MB';
 
     # changes do get written into file cat /var/lib/postgresql/<PG_VERSION>/main/postgresql.auto.conf

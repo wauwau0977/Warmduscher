@@ -25,6 +25,8 @@ export class HeatingDataService {
   private static readonly CACHE_KEY_BOILER_STATS_BY_DAY_OF_THE_WEEK: string = "CACHE_KEY_BOILER_STATS_BY_DAY_OF_THE_WEEK";
   private static readonly CACHE_KEY_BOILER_STATS_BY_HOUR: string = "CACHE_KEY_BOILER_STATS_BY_HOUR";
 
+  private static readonly CACHE_KEY_SOLE_TEMP_DELTA_IN_OPERATION: string = "CACHE_KEY_SOLE_TEMP_DELTA_IN_OPERATION";
+
   static convertDate(utcDateText: string) {
     let x1 = moment.utc(utcDateText);
     return x1.toDate();
@@ -111,6 +113,20 @@ export class HeatingDataService {
     return this.cacheService.get(
       HeatingDataService.CACHE_KEY_BOILER_STATS_BY_HOUR,
       () => this.http.get(this.serviceBaseURL + '/heatpump-data/getBoilerStatsByHour', {params: p}),
+      evictCache);
+  }
+
+  getSoleDeltaInOperationStats(evictCache: boolean, from: Moment, to: Moment, maxRows: number, groupEveryNthSecond: number) {
+    let p = new HttpParams()
+      .set('start', from.toJSON())
+      .set('end', to.toJSON())
+      .set('maxRows', maxRows)
+      .set('groupEveryNthSecond', groupEveryNthSecond)
+    ;
+
+    return this.cacheService.get(
+      HeatingDataService.CACHE_KEY_SOLE_TEMP_DELTA_IN_OPERATION,
+      () => this.http.get(this.serviceBaseURL + '/heatpump-data/getSoleDeltaInOperationStats', {params: p}),
       evictCache);
   }
 

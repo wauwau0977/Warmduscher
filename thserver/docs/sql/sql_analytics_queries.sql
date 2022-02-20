@@ -202,60 +202,78 @@ order by bucket_nr
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
--- SOLE IN/OUT difference while in operation
+-- SOLE IN/OUT difference while in operation (with a completely generic group-by)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- a query to get the temperature difference between SOLE_IN and SOLE_OUT when the compressor is running for at least a few minutes.
--- this avoids the issue, that the readings tend to go to the environment temperature when no water is circulating
-select min(measurement_date)                                   measurement_date_start,
-       max(measurement_date)                                   measurement_date_end,
-       count(1)                                                number_of_probes,
-       di10compressor1,
-       round(cast(avg(sole_in) - avg(sole_out) as numeric), 1) sole_in_out_delta_in_operation_avg, -- most interesting column
-       round(cast(avg(sole_in) as numeric), 1)                 sole_in_avg,
-       min(sole_in)                                            sole_in_min,
-       max(sole_in)                                            sole_in_max,
-       round(cast(avg(sole_out) as numeric), 1)                sole_out_avg,
-       min(sole_out)                                           sole_out_min,
-       max(sole_out)                                           sole_in_max
+-- this avoids the issue, that the readings tend to go to the environment temperature when no water is circulating in the beginning.
+-- that query is to consolidate the stats if we run a long term analysis
+select min(measurement_date_start)                                        as measurementDateStart,
+       max(measurement_date_end)                                          as measurementDateEnd,
+       round(cast(avg(sole_in_out_delta_in_operation_avg) as numeric), 3) as soleInOutDeltaInOperationAvg,
+       round(cast(min(sole_in_out_delta_in_operation_avg) as numeric), 3) as soleInOutDeltaInOperationMin,
+       round(cast(max(sole_in_out_delta_in_operation_avg) as numeric), 3) as soleInOutDeltaInOperationMax,
+       di10compressor1                                                    as compressorState,
+       sum(number_of_probes)                                              as totalNumberOfProbesInSampleWindow
 from (
-         select h1.*,
-                first_value(measurement_date) over (partition by seq_id order by measurement_date)                                                                                                                      compressor_start,
-                first_value(measurement_date) over (partition by seq_id order by measurement_date desc)                                                                                                                 compressor_end,
-                extract('epoch' from (first_value(measurement_date) over (partition by seq_id order by measurement_date desc) - first_value(measurement_date) over (partition by seq_id order by measurement_date))) as compressor_runtime_in_seconds,
-                extract('epoch' from (measurement_date - first_value(measurement_date) over (partition by seq_id order by measurement_date)))                                                                        as seconds_since_toggle_on,
-                extract('epoch' from (first_value(measurement_date) over (partition by seq_id order by measurement_date desc) - measurement_date))                                                                   as seconds_before_toggle_off
+         -- query to have generic grouping
+         select h3.*,
+                -- completely generic grouping based on param, either on time or records, depending what is given
+                case
+                    -- group by a given time in seconds
+                    when :group_every_nth_second > 0 then (round(extract(epoch from measurement_date_start) / :group_every_nth_second))
+                    -- group by max number of rows
+                    when :maxRows > 0 then (ntile(:maxRows) over ( order by measurement_date_start )) -- avoid sub-query here, which destroys the over() window
+                -- default grouping 1hr
+                    else (round(extract(epoch from measurement_date_start) / 3600))
+                    end as group_id
          from (
-                  select id,
-                         measurement_date,
+                  -- That select provides us the statistical values per run of the heatpump excluding the inital startup phase
+                  select min(measurement_date)                                   measurement_date_start,
+                         max(measurement_date)                                   measurement_date_end,
+                         count(1)                                                number_of_probes,
                          di10compressor1,
-                         sole_in,
-                         sole_out,
-                         -- gaps and island problem https://towardsdatascience.com/gaps-and-islands-with-mysql-b407040d133d
-                         row_number() over ( order by measurement_date) - row_number() over (partition by di10compressor1 order by measurement_date) as seq_id,
-                         -- completely generic grouping based on param, either on time or records, depending what is given
-                         case
-                             -- group by a given time in seconds
-                             when :group_every_nth_second > 0 then (round(extract(epoch from measurement_date) / :group_every_nth_second))
-                             -- group by max number of rows
-                             when :maxRows > 0 then (select ntile(:maxRows) over ( order by measurement_date ))
-                             -- default grouping 1hr
-                             else (round(extract(epoch from measurement_date) / 3600))
-                             end                                                                                                                     as groupid
-                  from heat_pump
+                         round(cast(avg(sole_in) - avg(sole_out) as numeric), 1) sole_in_out_delta_in_operation_avg, -- most interesting column!
+                         round(cast(avg(sole_in) as numeric), 1)                 sole_in_avg,
+                         min(sole_in)                                            sole_in_min,
+                         max(sole_in)                                            sole_in_max,
+                         round(cast(avg(sole_out) as numeric), 1)                sole_out_avg,
+                         min(sole_out)                                           sole_out_min,
+                         max(sole_out)                                           sole_in_max
+                  from (
+                           select h1.*,
+                                  first_value(measurement_date) over (partition by seq_id order by measurement_date)                                                    compressor_start,
+                                  first_value(measurement_date) over (partition by seq_id order by measurement_date desc)                                               compressor_end,
+                                  extract('epoch' from (first_value(measurement_date) over (partition by seq_id order by measurement_date desc) -
+                                                        first_value(measurement_date) over (partition by seq_id order by measurement_date)))                         as compressor_runtime_in_seconds,
+                                  extract('epoch' from (measurement_date - first_value(measurement_date) over (partition by seq_id order by measurement_date)))      as seconds_since_toggle_on,
+                                  extract('epoch' from (first_value(measurement_date) over (partition by seq_id order by measurement_date desc) - measurement_date)) as seconds_before_toggle_off
+                           from (
+                                    select id,
+                                           measurement_date,
+                                           di10compressor1,
+                                           sole_in,
+                                           sole_out,
+                                           -- gaps and island problem https://towardsdatascience.com/gaps-and-islands-with-mysql-b407040d133d
+                                           row_number() over ( order by measurement_date) - row_number() over (partition by di10compressor1 order by measurement_date) as seq_id
+                                    from heat_pump
+                                    where 1 = 1
+                                      and measurement_date >= :measurement_date_start -- TO_TIMESTAMP( '2017-03-31 9:30:20', 'YYYY-MM-DD HH24:MI:SS')
+                                      and measurement_date <= :measurement_date_end   -- TO_TIMESTAMP( '2030-03-31 9:30:20', 'YYYY-MM-DD HH24:MI:SS')
+                                    order by measurement_date desc
+                                ) h1
+                           order by measurement_date desc
+                       ) h2
                   where 1 = 1
-                    and measurement_date >= :measurement_date_start -- TO_TIMESTAMP( '2017-03-31 9:30:20', 'YYYY-MM-DD HH24:MI:SS')
-                    and measurement_date <= :measurement_date_end   -- TO_TIMESTAMP( '2030-03-31 9:30:20', 'YYYY-MM-DD HH24:MI:SS')
-                  order by measurement_date desc
-              ) h1
-         order by measurement_date desc
-     ) h2
-where 1 = 1
-  -- only take readings after the compressor did run for a while, also, ignore the ones shortly before turning off
-  and di10compressor1 = true
-  and seconds_since_toggle_on > 180
-  and seconds_before_toggle_off > 60
-  and seconds_since_toggle_on < 3600 * 23   -- runs almost 24h must be an error
-  and seconds_before_toggle_off < 3600 * 23 -- runs almost 24h must be an error
-group by groupid, di10compressor1
-order by measurement_date_start asc
+                    -- only take readings after the compressor did run for a while, also, ignore the ones shortly before turning off
+                    and di10compressor1 = true
+                    and seconds_since_toggle_on > 180         -- exclude the startup phase while temperature still adjusts, only consider measurements after 3 min of compressor runtime
+                    and seconds_before_toggle_off > 60
+                    and seconds_since_toggle_on < 3600 * 23   -- runs almost 24h must be an error
+                    and seconds_before_toggle_off < 3600 * 23 -- runs almost 24h must be an error
+                  group by seq_id, di10compressor1
+                  order by measurement_date_start asc
+              ) h3
+     ) h4
+group by group_id, di10compressor1
+order by measurementDateStart
 ;

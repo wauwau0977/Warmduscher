@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1645092825099,
+  "timestamp": 1645346084321,
   "index": "/pi11/index.html",
   "assetGroups": [
     {
@@ -23,7 +23,7 @@
         "/pi11/assets/images/spring_boot_start_2.png",
         "/pi11/favicon.ico",
         "/pi11/index.html",
-        "/pi11/main.a92791c21f3bafb2.js",
+        "/pi11/main.f950e8c4c9587ad4.js",
         "/pi11/manifest.webmanifest",
         "/pi11/polyfills.57c3c0646f2b784c.js",
         "/pi11/runtime.0d4c1a8da372cd16.js",
@@ -146,8 +146,8 @@
     "/pi11/assets/images/spring_boot_start_2.png": "accffdc092ccdb231141c6eecd599da7e3f34684",
     "/pi11/assets/videos/Install_PWA_Android.mp4": "3c2b5ebfa1a8633c4dab1737a0daad6d7b68fce2",
     "/pi11/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/pi11/index.html": "14f98eb3f01046773a8443a6c1d1e73814f35c1e",
-    "/pi11/main.a92791c21f3bafb2.js": "dad3ac5460bdf420eb3b47c2ca653b5fcbf829eb",
+    "/pi11/index.html": "64e38ec670dffd3ca8384fd417570ed27a6857fd",
+    "/pi11/main.f950e8c4c9587ad4.js": "ff1473441bcd838aef37225e5fefacdb073d9cf3",
     "/pi11/manifest.webmanifest": "835e3e082a6aad90e330bdb6eae3fe49da2905cf",
     "/pi11/polyfills.57c3c0646f2b784c.js": "a0b05c7f98f33f4682b28f56f9c2698907002344",
     "/pi11/runtime.0d4c1a8da372cd16.js": "ccf6b4631c135a73723774f18a8ca035bb27bdbc",

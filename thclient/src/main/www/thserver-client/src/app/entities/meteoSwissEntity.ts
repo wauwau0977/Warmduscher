@@ -1,4 +1,4 @@
-import {HeatingDataService} from "./heating-data.service";
+import {HeatingDataService} from "../heating-data.service";
 
 export class MeteoSwissEntity {
 
